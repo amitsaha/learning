@@ -36,3 +36,4 @@ print(collect_anagrams(['foo', 'bar', 'abba', 'rab',
                         'aabb']))
 print(collect_anagrams(['foo', 'bar', 'abba', 'rab',
                         'aabb', 'oof']))
+print(collect_anagrams(['I', 'yum', 'can', 'eat', 'I', 'ate', 'att', 'I', 'the', 'eel', 'eth', 'het']))
