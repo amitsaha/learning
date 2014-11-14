@@ -22,7 +22,7 @@ def randN(n):
                 digits[str(d)] = 1
     return int(''.join(digits.keys()))
 
-# and a simpler approach
+# and couple of simpler approaches
 # http://codereview.stackexchange.com/a/69799/58086
 def randN1(n):
     assert n<=10
@@ -30,6 +30,13 @@ def randN1(n):
     while digits[0] == 0:
         random.shuffle(digits)
     return int(''.join(str(d) for d in digits[:n]))
+
+def randN2(n):
+    assert n<=10
+    digits = [0]
+    while digits[0] == 0:
+        digits = random.sample(range(10), n)
+    return int(''.join(str(d) for d in digits))
 
 def _assert(randi, n):
     assert len(str(randi)) == n
@@ -43,3 +50,7 @@ for _ in range(100000):
     _assert(randN1(10), 10)
     _assert(randN1(1), 1)
     _assert(randN1(5), 5)
+
+    _assert(randN2(10), 10)
+    _assert(randN2(1), 1)
+    _assert(randN2(5), 5)
