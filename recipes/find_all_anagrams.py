@@ -1,5 +1,6 @@
 '''
-Find all anagrams in a list: can be a file
+Find all anagrams in a list for a given lookup word 
+(can be a file)
 '''
 from __future__ import print_function
 
