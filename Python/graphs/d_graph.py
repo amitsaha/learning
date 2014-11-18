@@ -50,6 +50,58 @@ def visit_with_cycle_detection(node):
         print('Cycle detected: {0}'.format(str([n.label for n in visited.keys()])))
         raise SystemExit
 
+# Topological sort on a non-empty Acyclic graph
+def toposort():
+    '''
+    7 -> 11, 8
+    5 -> 11
+    3 -> 8, 10
+    11 -> 2, 9, 10
+    8 -> 9
+    '''
+    two = Node('2')
+    three = Node('3')
+    five = Node('5')
+    seven = Node('7')
+    eight = Node('8')
+    nine = Node('9')
+    ten = Node('10')
+    eleven = Node('11')
+
+    seven.update_neighbors([eleven, eight])
+    five.update_neighbors([eleven])
+    three.update_neighbors([eight, ten])
+    eleven.update_neighbors([two, nine, ten])
+    eight.update_neighbors([nine])
+
+    vertices = [two, three, five, seven, eight, nine, ten, eleven]
+    # create the set of vertices with no incoming edges
+    # -> vertex which is not in the right side of any of the nodes
+    def get_vertices_with_incoming_edges():
+        neighbors = []
+        for v in vertices:
+            if v.neighbors:
+                neighbors.extend(v.neighbors)
+        return set(neighbors)
+
+    sorted_v = []
+    with_incoming_edges = get_vertices_with_incoming_edges()
+    no_incoming_edges = [v for v in vertices if v not in with_incoming_edges]
+    while no_incoming_edges:
+        n = no_incoming_edges.pop()
+        sorted_v.append(n)
+        for m in list(n.neighbors):
+            # remove the edge from n to m
+            n.neighbors.remove(m)
+            with_incoming_edges = get_vertices_with_incoming_edges()
+            if m not in with_incoming_edges:
+                no_incoming_edges.append(m)
+
+    if get_vertices_with_incoming_edges():
+        print('Error')
+    else:
+        print([v.label for v in sorted_v])
+
 if __name__ == '__main__':
     '''
     Example graph:
@@ -72,8 +124,8 @@ if __name__ == '__main__':
     b = Node('B', neighbors=[d, e])
     a = Node('A', neighbors=[b, c])
 
-    bfs(a)
-    dfs(a, visit)
+    #bfs(a)
+    #dfs(a, visit)
 
     # Graph with a cycle
     '''
@@ -87,4 +139,6 @@ if __name__ == '__main__':
     a.update_neighbors([c])
     c.update_neighbors([b])
     b.update_neighbors([a])
-    dfs(a, visit_with_cycle_detection)   
+    #dfs(a, visit_with_cycle_detection)
+
+    toposort()
