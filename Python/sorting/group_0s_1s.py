@@ -20,5 +20,7 @@ def rearrange(arr):
 
     return arr
 
+print(rearrange([0, 0, 1, 1]))
 print(rearrange([1, 0, 0, 1, 1]))
 print(rearrange([1, 0, 0, 0, 1, 0, 0]))
+print(rearrange([0, 1, 0, 1, 0, 1, 0, 1]))
