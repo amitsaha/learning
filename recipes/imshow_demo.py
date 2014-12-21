@@ -8,5 +8,5 @@ import matplotlib.cm as cm
 x = [[0, 0, 0],
      [0, 0, 0],
      [0, 0, 1]]
-plt.imshow(x, cmap=cm.Greys_r)
+plt.imshow(x, cmap=cm.gray)
 plt.show()
