@@ -17,7 +17,7 @@ def get_index(r, percentages):
     return len(percentages)-1
 
 indices = []
-percentages = [0.25, 0.25, 0.1, 0.4]
+percentages = [1/6] * 6
 for i in range(10000):
     r = random.random()
     idx = get_index(r, percentages)
