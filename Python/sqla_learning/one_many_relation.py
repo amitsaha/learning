@@ -26,13 +26,13 @@ class Member(Base):
 
 class Book(Base):
     __tablename__ = 'book'
-    
+
     id = Column(Integer, primary_key=True)
     title = Column(String)
     isbn = Column(String)
     member_id = Column(Integer, ForeignKey('member.id'))
     member = relationship('Member', back_populates='books')
-    
+
     def __init__(self, title, isbn):
         self.title = title
         self.isbn = isbn
