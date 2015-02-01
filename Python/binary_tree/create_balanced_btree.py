@@ -10,9 +10,9 @@ class Node:
         self.right = None
 
 def preorder(root):
-    if root.left:
-        preorder(root.left)
     print root.value
+    if root.left:
+        preorder(root.left)    
     if root.right:
         preorder(root.right)
 
