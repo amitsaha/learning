@@ -1,5 +1,3 @@
-# An example fedmsg koji consumer
-
 import fedmsg.consumers
 
 class KojiPackageMonitor(fedmsg.consumers.FedmsgConsumer):
