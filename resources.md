@@ -1,8 +1,28 @@
+# Infrastructure/Platform/Workflow
+
+## Ansible
+- http://www.ansible.com/home
+
+## Vagrant
+- https://www.vagrantup.com/
+
+## Docker
+- https://www.docker.com/
+
+# Specifications
+
+## JSON API 
+- http://jsonapi.org/
+ 
 # C
 
 # C++
 
 # Go
+
+## The Little Go Book
+
+- http://openmymind.net/The-Little-Go-Book/
 
 # Javascript
 
