@@ -128,6 +128,13 @@ inside ``else if`` or ``else``.
 
 - Function types: Functions are first class type
 
+*goroutines and channels*
+
+TBD
+
+*Unit testing*
+
+- See ``fact/`` for example.
 
 
 First code - Hello world
@@ -309,7 +316,8 @@ func main() {
 
 
 References
-----------
+==========
 
 - [The Little Go Book]([http://openmymind.net/The-Little-Go-Book/)
+- [Unit testing example]([http://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160])
 - More to come
