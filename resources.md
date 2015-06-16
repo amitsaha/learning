@@ -6,7 +6,7 @@
 ## Vagrant
 - https://www.vagrantup.com/
 
-## Docker
+## Linux Containers
 - https://www.docker.com/
 
 # Web/APIs
