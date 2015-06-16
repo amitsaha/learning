@@ -9,7 +9,7 @@
 ## Docker
 - https://www.docker.com/
 
-# Specifications
+# Web/APIs
 
 ## JSON API 
 - http://jsonapi.org/
