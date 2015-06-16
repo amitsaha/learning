@@ -1,4 +1,3 @@
-Random grab bag
-===============
+Learning.
 
 
