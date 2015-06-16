@@ -1,0 +1,6 @@
+# install
+pip install marshmallow
+
+# Custom fields
+When data needs to have fields other than the class attributes:
+https://marshmallow.readthedocs.org/en/latest/custom_fields.html#function-fields
