@@ -15,3 +15,12 @@ color = Color(ColorEnum.red)
 schema = ColorSchema()
 result = schema.dump(color)
 print(type(result.data['color']))
+
+# validate
+# The following validation will fail, and hence
+# we will need to write a custom field for ColorEnum
+# See beaker source code for system pool
+d = ColorSchema().validate({'color':'red'})
+print(d)
+
+
