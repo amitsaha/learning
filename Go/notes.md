@@ -191,7 +191,7 @@ func main() {
 
 To compile and run:
 
-``
+```
 $ go run main.go 9000
 ```
 
