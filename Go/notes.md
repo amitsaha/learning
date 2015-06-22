@@ -191,7 +191,7 @@ func main() {
 
 To compile and run:
 
-``
+```
 $ go run main.go 9000
 ```
 
@@ -320,4 +320,5 @@ References
 
 - [The Little Go Book]([http://openmymind.net/The-Little-Go-Book/)
 - [Unit testing example]([http://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160])
+- [defer, panic, recover](http://blog.golang.org/defer-panic-and-recover)
 - More to come
