@@ -1,0 +1,11 @@
+Selectively run the tests based on what's changed in HEAD.
+
+Copy these two files in the ``IntegrationTests`` directory of your beaker
+clone.
+
+If only files in Client/ has changed, only run client tests
+If only files in documentation/ has changed, do not run any tests,
+else run all tests
+
+Can be further fine tuned.
+

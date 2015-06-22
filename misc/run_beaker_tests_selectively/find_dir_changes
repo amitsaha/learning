@@ -1,0 +1,30 @@
+#!/usr/bin/python
+
+import sys
+import os
+from dulwich.repo import Repo
+
+repo = Repo(sys.argv[1])
+walker = repo.get_walker()
+files_changed = []
+for commit in walker:
+    for change in commit.changes():
+        # dirty way to to ignore merge commits
+        # https://www.samba.org/~jelmer/dulwich/apidocs/dulwich.walk.WalkEntry.html
+        if not isinstance(change, list):
+            if change.old.path:
+                files_changed.append(change.old.path)
+            if change.new.path:
+                files_changed.append(change.new.path)
+    # We just want the changes in HEAD
+    break
+    files_changed = set(files_changed)
+
+longest_common_dir = os.path.commonprefix(files_changed)
+if 'Client' in longest_common_dir:
+    print('bkr.inttest.client')
+elif 'documentation' in longest_common_dir:
+    print('No tests will be run')
+    sys.exit(0)
+else:
+    print('bkr')
