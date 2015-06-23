@@ -3,23 +3,31 @@
 import sys
 import os
 from dulwich.repo import Repo
+from dulwich.diff_tree import tree_changes
 
 repo = Repo(sys.argv[1])
-walker = repo.get_walker()
-files_changed = []
-for commit in walker:
-    for change in commit.changes():
-        # dirty way to to ignore merge commits
-        # https://www.samba.org/~jelmer/dulwich/apidocs/dulwich.walk.WalkEntry.html
-        if not isinstance(change, list):
-            if change.old.path:
-                files_changed.append(change.old.path)
-            if change.new.path:
-                files_changed.append(change.new.path)
-    # We just want the changes in HEAD
-    break
-    files_changed = set(files_changed)
+proposed_commit = repo.refs['HEAD']
+# get the commit corresponding to the target branch
+target_branch = os.environ['TARGETBRANCH']
+target_branch_commit = repo.refs['refs/heads/%s' % target_branch]
 
+# find the files changed between these two commits
+c1 = repo[proposed_commit]
+c2 = repo[target_branch_commit]
+
+# The proposed commit will not be a merge commit for sure(?)
+# If we need to, tree_changes_for_merge() should be of help
+# check that proposed_commit is not a merge commit
+assert len(repo[proposed_commit].parents) == 1
+
+changes = tree_changes(repo.object_store, c1.tree, c2.tree)
+files_changed = []
+for change in changes:
+    if change.old.path:
+        files_changed.append(change.old.path)
+    if change.new.path:
+        files_changed.append(change.new.path)
+files_changed = set(files_changed)
 longest_common_dir = os.path.commonprefix(files_changed)
 if 'Client' in longest_common_dir:
     print('bkr.inttest.client')
