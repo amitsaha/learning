@@ -24,6 +24,10 @@
 
 - http://openmymind.net/The-Little-Go-Book/
 
+## An Introduction to Programming in Go
+
+- https://www.golang-book.com/books/intro
+
 # Javascript
 
 # Python
