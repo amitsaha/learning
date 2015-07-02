@@ -8,6 +8,7 @@
 
 ## Linux Containers
 - https://www.docker.com/
+- DNS for docker: https://github.com/tonistiigi/dnsdock
 
 # Web/APIs
 
