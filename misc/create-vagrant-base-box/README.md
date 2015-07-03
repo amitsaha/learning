@@ -29,6 +29,6 @@ $ cd libvirt
 
 ## With help from
 
-# http://jansipke.nl/creating-a-centos-vm-image-for-openstack/
-# https://github.com/pradels/vagrant-libvirt/
-# https://blog.engineyard.com/2014/building-a-vagrant-box
+- http://jansipke.nl/creating-a-centos-vm-image-for-openstack/
+- https://github.com/pradels/vagrant-libvirt/
+- https://blog.engineyard.com/2014/building-a-vagrant-box
