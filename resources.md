@@ -6,9 +6,10 @@
 ## Vagrant
 - https://www.vagrantup.com/
 
-## Linux Containers
+## Linux Containers/Sandboxing/VMs
 - https://www.docker.com/
 - DNS for docker: https://github.com/tonistiigi/dnsdock
+- libvirt Sandbox: http://sandbox.libvirt.org/download/
 
 # Web/APIs
 
