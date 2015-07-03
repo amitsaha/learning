@@ -1,5 +1,6 @@
 import sys
 import os
+
 def tail(lines_to_read, fname):
 
     if fname != 'stdin':
@@ -19,7 +20,7 @@ def tail(lines_to_read, fname):
                 num_bytes += 1
                 if data.count('\n') >= lines_to_read:
                     break
-        data = ''.join(data[::-1])        
+        data = ''.join(data[::-1])
     else:
         data = ''.join(sys.stdin.readlines()[-lines_to_read:])
     return data
