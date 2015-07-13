@@ -13,7 +13,7 @@
 
 
 ## Jenkins
-- jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/en/latest/installation.html#updating-jobs
+- jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
 
 # Web/APIs
 
