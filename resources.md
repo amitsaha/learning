@@ -10,6 +10,10 @@
 - https://www.docker.com/
 - DNS for docker: https://github.com/tonistiigi/dnsdock
 - libvirt Sandbox: http://sandbox.libvirt.org/download/
+- 
+
+## Jenkins
+- jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/en/latest/installation.html#updating-jobs
 
 # Web/APIs
 
