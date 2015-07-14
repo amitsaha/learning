@@ -30,6 +30,8 @@
 
 # Javascript
 
+- Moment.js: http://momentjs.com/ (Dates)
+
 # Python
 
 - marshmallow: Simplified Object Serialization - https://marshmallow.readthedocs.org/en/latest/
