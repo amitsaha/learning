@@ -28,8 +28,8 @@ part /boot --fstype ext4 --size=200
 part swap --size=512
 part / --fstype ext4 --size=12288 --grow
 
-user --name=vagrant --password=vagrant
-rootpw vagrant
+user --name=vagrant --password=vagrant --plaintext
+rootpw vagrant --plaintext
 
 
 reboot
