@@ -1,0 +1,16 @@
+<template>
+ <name>fedora22_x86_64_scientific</name>
+ <description>Fedora22 x86_64 Scientific template</description>
+ <os>
+  <name>Fedora</name>
+  <version>22</version>
+  <arch>x86_64</arch>
+  <install type='url'>
+    <url>http://mirror.aarnet.edu.au/pub/fedora/linux/releases/22/Workstation/x86_64/os</url>
+  </install>
+ </os>
+<disk>
+  <size>25</size>
+</disk>
+</template>
+

@@ -1,0 +1,6 @@
+
+Vagrant.configure("2") do |config|
+  config.vm.base_mac = "525400c64cfc"
+  config.vm.synced_folder ".", "/vagrant", type: "rsync"
+end
+
