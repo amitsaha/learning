@@ -10,6 +10,10 @@
 - https://www.docker.com/
 - DNS for docker: https://github.com/tonistiigi/dnsdock
 - libvirt Sandbox: http://sandbox.libvirt.org/download/
+- 
+## SSH
+- How to disable host key checking? http://linuxcommando.blogspot.com.au/2008/10/how-to-disable-ssh-host-key-checking.html
+- Permissions for .ssh: http://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
 
 
 ## Jenkins
