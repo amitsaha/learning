@@ -22,8 +22,6 @@
 ## Miscellaneous
 
 - Bash alias with parameters: http://stackoverflow.com/questions/7131670/make-bash-alias-that-takes-parameter
-- 
-
 
 ## Jenkins
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
