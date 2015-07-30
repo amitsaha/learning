@@ -15,6 +15,15 @@
 - How to disable host key checking? http://linuxcommando.blogspot.com.au/2008/10/how-to-disable-ssh-host-key-checking.html
 - Permissions for .ssh: http://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
 
+## httpie
+
+- 
+
+## Miscellaneous
+
+- Bash alias with parameters: http://stackoverflow.com/questions/7131670/make-bash-alias-that-takes-parameter
+- 
+
 
 ## Jenkins
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
