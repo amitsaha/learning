@@ -17,7 +17,8 @@
 
 ## httpie
 
-- 
+- https://github.com/jkbrzt/httpie
+- By deafault httpie encodes stuff as strings, but if the data type is to be preserved, use ``:=``
 
 ## Miscellaneous
 
