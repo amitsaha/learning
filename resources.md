@@ -24,6 +24,7 @@
 
 - Bash alias with parameters: http://stackoverflow.com/questions/7131670/make-bash-alias-that-takes-parameter
 - ``arc`` (CLI for phabricator): https://secure.phabricator.com/book/phabricator/article/arcanist/
+- ``arc`` updating an existing patch: https://phab.enlightenment.org/w/arcanist/#update-an-existing-patch
 
 ## Jenkins
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
