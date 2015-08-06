@@ -9,7 +9,7 @@ http://svn.python.org/projects/sandbox/trunk/setuptools/doc/formats.txt
 to learn more about egg links)
 
 Demo
----
+----
 
 - Run ``pip install -e .``
 - You will find a ``sample.egg-link`` file in your ``site-packages``
