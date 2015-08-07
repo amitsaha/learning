@@ -52,6 +52,7 @@
 - marshmallow: Simplified Object Serialization - https://marshmallow.readthedocs.org/en/latest/
 - Flask-RESTful: https://flask-restful.readthedocs.org/en/0.3.3/
 - setuptools develop mode (also see, pip edtiable mode): http://stackoverflow.com/questions/19048732/python-setup-py-develop-vs-install
+- Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 
 # Scala
 
