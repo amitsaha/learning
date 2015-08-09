@@ -1,0 +1,3 @@
+- The delete key works both ways: http://lifehacker.com/5803041/the-mac-os-x-delete-key-it-goes-both-ways
+- Taking a screenshot: http://www.wikihow.com/Take-a-Screenshot-in-Mac-OS-X
+- Overriding default keyboard shortcuts: http://blog.remibergsma.com/2012/07/29/overriding-default-keyboard-shortcuts-in-mac-osx-mountain-lion/
