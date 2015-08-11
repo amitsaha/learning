@@ -34,6 +34,8 @@
 
 - JSON API - http://jsonapi.org/
 - Web API design - Crafting interfaces that developers love: http://apigee.com/about/resources/ebooks/web-api-design
+- Designing for Performance: http://designingforperformance.com/
+
 # C
 
 # C++
