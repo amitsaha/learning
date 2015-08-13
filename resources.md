@@ -56,5 +56,9 @@
 - setuptools develop mode (also see, pip edtiable mode): http://stackoverflow.com/questions/19048732/python-setup-py-develop-vs-install
 - Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 
-# Scala
+
+# Data Science/Optimization/Machine Learning/Evolutionary Algorithms
+
+-  A few things to know about machine learning: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
+
 
