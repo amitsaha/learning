@@ -3,6 +3,10 @@
 ## Ansible
 - http://www.ansible.com/home
 
+## Git
+
+- Git subtree: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
+
 ## Vagrant
 - https://www.vagrantup.com/
 
@@ -60,5 +64,6 @@
 # Data Science/Optimization/Machine Learning/Evolutionary Algorithms
 
 -  A few things to know about machine learning: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
+-  Introduction to Decision trees: http://www.treeplan.com/chapters/introduction-to-decision-trees.pdf
 
 
