@@ -12,6 +12,8 @@
 
 ## Linux Containers/Sandboxing/VMs
 - https://www.docker.com/
+- Docker machine: https://docs.docker.com/machine/
+- Docker compose: https://docs.docker.com/compose/
 - DNS for docker: https://github.com/tonistiigi/dnsdock
 - libvirt Sandbox: http://sandbox.libvirt.org/download/
 
