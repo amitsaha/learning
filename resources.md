@@ -3,6 +3,10 @@
 ## Ansible
 - http://www.ansible.com/home
 
+## Elastic Search
+
+- https://github.com/elastic/elasticsearch-definitive-guide
+
 ## Git
 
 - Git subtree: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
