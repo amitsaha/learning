@@ -91,8 +91,7 @@ Jenkins
 
 Puppet
 
-- Resource, manifests, modules: https://docs.puppetlabs.com/pe/latest/puppet_modules_manifests.html
-- Commands: puppet parser validate, puppet apply
+- Courseware learning VM: https://github.com/puppetlabs/courseware-lvm
 
 
 Vault (Secret management)
