@@ -1,0 +1,4 @@
+Ensure the emacs d init.el file is right!
+
+- Place emacsd_init_el in your module path
+- puppet apppy tests/init.pp

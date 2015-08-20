@@ -1,0 +1,82 @@
+;; hide them all.
+(setq inhibit-startup-message t
+      inhibit-startup-echo-area-message t)  
+(menu-bar-mode -1) 
+(tool-bar-mode -1) 
+(scroll-bar-mode -1)
+
+;; Line number
+(global-linum-mode 1)
+;; Show column-number in the mode line
+(column-number-mode 1)
+
+;; Auto-fill mode
+(add-hook 'text-mode-hook 'auto-fill-mode)
+
+;; Use spaces instead of tabs
+(setq-default indent-tabs-mode nil)
+;; Set tab to display as 4 spaces
+(setq-default tab-width 4)
+;; Set stop-tabs to be 4 written as spaces
+(setq-default tab-stop-list (number-sequence 4 120 4))
+
+;; Set default tab space for various modes
+(setq-default sgml-basic-offset 4)
+(setq-default py-indent-offset 4)
+(setq-default python-indent 4)
+
+
+
+;; Package repo
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;; ;; (add-to-list 'package-archives
+;; ;;              '("marmalade" . "http://marmalade-repo.org/packages/") t)
+
+(package-initialize)
+
+;; Solarized theme
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/solarized/")
+(load-theme 'solarized-dark t)
+;;(set-frame-parameter frame 'background-mode 'dark')
+;;(enable-theme 'solarized)
+
+;; Font setting
+(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-14"))
+
+;; Backup settings
+(setq
+ backup-by-copying t      ; don't clobber symlinks
+ backup-directory-alist
+ '(("." . "~/.editing_backups"))    ; don't litter my fs tree
+ delete-old-versions t
+ kept-new-versions 6
+ kept-old-versions 2
+ version-control t)       ; use versioned backups
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+;; Inset import pdb; pdb.set_trace() on C-x, C-p
+(defun pdb-set-trace ()
+  ;; http://www.emacswiki.org/emacs/InteractiveFunction
+  (interactive)
+  (insert "import pdb; pdb.set_trace()\n"))
+(global-set-key [(control ?x) (control ?p)] 'pdb-set-trace)
+(defun nose-set-trace ()
+  ;; http://www.emacswiki.org/emacs/InteractiveFunction
+  (interactive)
+  (insert "from nose.tools import set_trace; set_trace()\n"))
+(global-set-key [(control ?x) (control ?n)] 'nose-set-trace)
