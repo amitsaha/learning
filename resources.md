@@ -92,6 +92,7 @@ Jenkins
 Puppet
 
 - Courseware learning VM: https://github.com/puppetlabs/courseware-lvm
+- Puppet cookbook: http://www.puppetcookbook.com/
 
 
 Vault (Secret management)
