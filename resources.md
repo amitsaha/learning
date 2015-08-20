@@ -88,6 +88,7 @@ Miscellaneous
 Jenkins
 
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
+- Jenkins job DSL plugin: https://github.com/jenkinsci/job-dsl-plugin
 
 Puppet
 
