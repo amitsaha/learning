@@ -1,4 +1,5 @@
-## Infrastructure/Platform/Workflow
+## Infrastructure/Platform/Workflow/Service Discovery
+
 Ansible
 
 - http://www.ansible.com/home
@@ -46,6 +47,9 @@ res = requests.get(es + index + method, data=payload)
 pprint.pprint(res.json())
 ```
 
+Consul (Service discovery, DNS, Load balancing)
+
+- http://www.consul.io/intro/
 
 Git
 
@@ -83,6 +87,10 @@ Miscellaneous
 Jenkins
 
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
+
+Vault (Secret management)
+
+- https://www.vaultproject.io/intro/getting-started/acl.html
 
 ## Web/APIs
 
