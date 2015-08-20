@@ -89,6 +89,12 @@ Jenkins
 
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
 
+Puppet
+
+- Resource, manifests, modules: https://docs.puppetlabs.com/pe/latest/puppet_modules_manifests.html
+- Commands: puppet parser validate, puppet apply
+
+
 Vault (Secret management)
 
 - https://www.vaultproject.io/intro/getting-started/acl.html
