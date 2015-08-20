@@ -1,9 +1,9 @@
-# Infrastructure/Platform/Workflow
+## Infrastructure/Platform/Workflow
+Ansible
 
-## Ansible
 - http://www.ansible.com/home
 
-## Elastic Search
+Elastic Search
 
 - https://github.com/elastic/elasticsearch-definitive-guide
 - Search results: https://www.elastic.co/guide/en/elasticsearch/reference/current/_the_search_api.html
@@ -47,60 +47,66 @@ pprint.pprint(res.json())
 ```
 
 
-## Git
+Git
 
 - Git subtree: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
 
-## Vagrant
+Vagrant
+
 - https://www.vagrantup.com/
 
-## Linux Containers/Sandboxing/VMs
+Linux Containers/Sandboxing/VMs
+
 - https://www.docker.com/
 - Docker machine: https://docs.docker.com/machine/
 - Docker compose: https://docs.docker.com/compose/
 - DNS for docker: https://github.com/tonistiigi/dnsdock
 - libvirt Sandbox: http://sandbox.libvirt.org/download/
 
-## SSH
+SSH
+
 - How to disable host key checking? http://linuxcommando.blogspot.com.au/2008/10/how-to-disable-ssh-host-key-checking.html
 - Permissions for .ssh: http://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
 
-## httpie
+httpie
 
 - https://github.com/jkbrzt/httpie
 - By deafault httpie encodes stuff as strings, but if the data type is to be preserved, use ``:=``
 
-## Miscellaneous
+Miscellaneous
 
 - Bash alias with parameters: http://stackoverflow.com/questions/7131670/make-bash-alias-that-takes-parameter
 - ``arc`` (CLI for phabricator): https://secure.phabricator.com/book/phabricator/article/arcanist/
 - ``arc`` updating an existing patch: https://phab.enlightenment.org/w/arcanist/#update-an-existing-patch
 - ``JSONView`` Firefox plugin for pretty viewing JSON (https://addons.mozilla.org/en-us/firefox/addon/jsonview/)
 
-## Jenkins
+Jenkins
+
 - jenkins-job-builder: http://jenkins-job-builder.readthedocs.org/
 
-# Web/APIs
+## Web/APIs
 
 - JSON API - http://jsonapi.org/
 - Web API design - Crafting interfaces that developers love: http://apigee.com/about/resources/ebooks/web-api-design
 - Designing for Performance: http://designingforperformance.com/
 
-# C
+## Programming Languages
 
-# C++
+C
 
-# Go
+C++
+
+Go
 
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
 - An Introduction to Programming in Go: https://www.golang-book.com/books/intro
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 
-# Javascript
+Javascript
 
 - Moment.js: http://momentjs.com/ (Dates)
 
-# Python
+Python
 
 - marshmallow: Simplified Object Serialization - https://marshmallow.readthedocs.org/en/latest/
 - Flask-RESTful: https://flask-restful.readthedocs.org/en/0.3.3/
@@ -108,7 +114,7 @@ pprint.pprint(res.json())
 - Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 
 
-# Data Science/Optimization/Machine Learning/Evolutionary Algorithms
+## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
 
 -  A few things to know about machine learning: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
 -  Introduction to Decision trees: http://www.treeplan.com/chapters/introduction-to-decision-trees.pdf
