@@ -84,6 +84,7 @@ Miscellaneous
 - ``arc`` (CLI for phabricator): https://secure.phabricator.com/book/phabricator/article/arcanist/
 - ``arc`` updating an existing patch: https://phab.enlightenment.org/w/arcanist/#update-an-existing-patch
 - ``JSONView`` Firefox plugin for pretty viewing JSON (https://addons.mozilla.org/en-us/firefox/addon/jsonview/)
+- The magic of consistent hashing: http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html
 
 Jenkins
 
@@ -104,6 +105,7 @@ Infrastructure testing
 
 - Serverspec: http://serverspec.org/tutorial.html
 - testinfra: https://testinfra.readthedocs.org/
+
 
 
 ## Web/APIs
