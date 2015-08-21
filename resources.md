@@ -134,5 +134,7 @@ Python
 
 -  A few things to know about machine learning: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
 -  Introduction to Decision trees: http://www.treeplan.com/chapters/introduction-to-decision-trees.pdf
+-  Probabilistic programming and Bayesian methods for Hackers: http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
+-  A/B testing with Hierarchical models in Python: http://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/?utm_source=Python+Weekly+Newsletter&utm_campaign=147f4fa16a-Python_Weekly_Issue_205_August_20_2015&utm_medium=email&utm_term=0_9e26887fc5-147f4fa16a-312663333
 
 
