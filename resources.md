@@ -100,6 +100,12 @@ Vault (Secret management)
 
 - https://www.vaultproject.io/intro/getting-started/acl.html
 
+Infrastructure testing
+
+- Serverspec: http://serverspec.org/tutorial.html
+- testinfra: https://testinfra.readthedocs.org/
+
+
 ## Web/APIs
 
 - JSON API - http://jsonapi.org/
