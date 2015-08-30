@@ -125,6 +125,7 @@ Go
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
 - An Introduction to Programming in Go: https://www.golang-book.com/books/intro
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
+- Docker based tool for go: https://github.com/treeder/go
 
 Javascript
 
