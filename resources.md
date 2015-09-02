@@ -54,6 +54,7 @@ Consul (Service discovery, DNS, Load balancing)
 Git
 
 - Git subtree: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
+- Exclude a directory from git diff: http://stackoverflow.com/questions/4380945/exclude-a-directory-from-git-diff
 
 Vagrant
 
@@ -130,6 +131,10 @@ Go
 Javascript
 
 - Moment.js: http://momentjs.com/ (Dates)
+
+PHP
+
+- Comparison operators: http://php.net/manual/en/language.operators.comparison.php
 
 Python
 
