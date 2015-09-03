@@ -135,6 +135,11 @@ Javascript
 PHP
 
 - Comparison operators: http://php.net/manual/en/language.operators.comparison.php
+- Get the type of a variable: http://php.net/manual/en/function.gettype.php
+- var_dump: http://php.net/manual/en/function.var-dump.php
+- var_export: http://php.net/manual/en/function.var-export.php
+- count: http://php.net/manual/en/function.count.php
+- Docs: http://php.net/manual/en/
 
 Python
 
