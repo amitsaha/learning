@@ -55,6 +55,8 @@ Git
 
 - Git subtree: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
 - Exclude a directory from git diff: http://stackoverflow.com/questions/4380945/exclude-a-directory-from-git-diff
+- Git garbage collection: http://think-like-a-git.net/sections/graphs-and-git/garbage-collection.html
+- Gc and Pruning: http://alblue.bandlem.com/2011/11/git-tip-of-week-gc-and-pruning-this.html
 
 Vagrant
 
