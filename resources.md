@@ -98,6 +98,25 @@ Puppet
 
 - Courseware learning VM: https://github.com/puppetlabs/courseware-lvm
 - Puppet cookbook: http://www.puppetcookbook.com/
+- Puppet nginx: https://github.com/jfryman/puppet-nginx
+- Example puppet manifest:
+```
+# cat nginx.pp
+class  {'nginx': }
+
+nginx::resource::vhost { 'www.myhost.com':
+    listen_port          => 80,
+    client_max_body_size => '15k',
+    large_client_header_buffers => '4 16k',
+    index_files          => [],
+    format_log           => 'forwarded_logs',
+    location_custom_cfg  => {
+      'include'           => 'uwsgi_params',
+    }
+}
+
+```
+
 
 
 Vault (Secret management)
