@@ -149,6 +149,7 @@ Go
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 - Docker based tool for go: https://github.com/treeder/go
 - Awesome go: https://github.com/avelino/awesome-go/blob/master/README.md
+- How to write Go code: https://golang.org/doc/code.html
 
 Javascript
 
