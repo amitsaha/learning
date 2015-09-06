@@ -135,6 +135,7 @@ Infrastructure testing
 - JSON API - http://jsonapi.org/
 - Web API design - Crafting interfaces that developers love: http://apigee.com/about/resources/ebooks/web-api-design
 - Designing for Performance: http://designingforperformance.com/
+- REST and long running jobs: http://farazdagi.com/blog/2014/rest-long-running-jobs/
 
 ## Programming Languages
 
