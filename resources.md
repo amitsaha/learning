@@ -136,6 +136,7 @@ Infrastructure testing
 - Web API design - Crafting interfaces that developers love: http://apigee.com/about/resources/ebooks/web-api-design
 - Designing for Performance: http://designingforperformance.com/
 - REST and long running jobs: http://farazdagi.com/blog/2014/rest-long-running-jobs/
+- Testing services without running tests: https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests
 
 ## Programming Languages
 
