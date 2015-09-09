@@ -137,6 +137,8 @@ Infrastructure testing
 - Designing for Performance: http://designingforperformance.com/
 - REST and long running jobs: http://farazdagi.com/blog/2014/rest-long-running-jobs/
 - Testing services without running tests: https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests
+- Webhook server: http://avoidwork.github.io/rozu/
+
 
 ## Programming Languages
 
