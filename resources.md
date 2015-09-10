@@ -167,6 +167,7 @@ PHP
 - var_export: http://php.net/manual/en/function.var-export.php
 - count: http://php.net/manual/en/function.count.php
 - print_r: print information about a variable, call with "true" to return the stuff.
+- print_r versus var_dump: http://stackoverflow.com/questions/3406171/php-var-dump-vs-print-r
 - Extending Exception: http://php.net/manual/en/language.exceptions.extending.php
 
 Python
