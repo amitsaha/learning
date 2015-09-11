@@ -12,6 +12,9 @@ In Vim, use 'n' for forward search and 'N' for backward search
 
 When using "top", use "c" to toggle between process name and the command line
 
+
 If your tests has docstrings, nose will display the string instead of
 the default function/method name:http://bit.ly/1VfJnfr
 
+
+puppet's nginx resource module's `vhost_cfg_prepend` can be used to enter arbitrary configuration. For example, for parameters not defined by the module such as `large_client_header_buffers`
