@@ -1,4 +1,4 @@
-# Today I learned about
+#Today I learned about
 
 Content-Disposition: Proposed as a means for the origin server to suggest a default file name 
 (http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html)
@@ -18,3 +18,4 @@ the default function/method name:http://bit.ly/1VfJnfr
 
 
 puppet's nginx resource module's `vhost_cfg_prepend` can be used to enter arbitrary configuration. For example, for parameters not defined by the module such as `large_client_header_buffers`
+
