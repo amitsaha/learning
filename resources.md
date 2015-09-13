@@ -29,6 +29,7 @@ Git
 - Git garbage collection: http://think-like-a-git.net/sections/graphs-and-git/garbage-collection.html
 - Gc and Pruning: http://alblue.bandlem.com/2011/11/git-tip-of-week-gc-and-pruning-this.html
 - Git - Maintenance and data recovery: https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery
+- Git is a purely functional data structure: http://www.jayway.com/2013/03/03/git-is-a-purely-functional-data-structure/
 
 Vagrant
 
