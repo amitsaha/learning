@@ -135,6 +135,7 @@ Python
 - Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 - Intermediate Python: https://github.com/yasoob/intermediatePython
 - Data validation: https://github.com/alecthomas/voluptuous
+- Intermediate Python: https://github.com/yasoob/intermediatePython/blob/master/README.md
 
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
