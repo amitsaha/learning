@@ -1,3 +1,5 @@
+*Table of contents*
+
 - [Infrastructure/Platform/Workflow](#infraworkflow)
 - [Web/APIs](#webapis)
 - [Programming Languages](#programming-languages)
