@@ -93,6 +93,7 @@ Infrastructure testing
 - REST and long running jobs: http://farazdagi.com/blog/2014/rest-long-running-jobs/
 - Testing services without running tests: https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests
 - Webhook server: http://avoidwork.github.io/rozu/
+- Gzip compression: http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
 
 
 ## Programming Languages
