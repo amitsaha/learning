@@ -57,6 +57,7 @@ Git
 - Exclude a directory from git diff: http://stackoverflow.com/questions/4380945/exclude-a-directory-from-git-diff
 - Git garbage collection: http://think-like-a-git.net/sections/graphs-and-git/garbage-collection.html
 - Gc and Pruning: http://alblue.bandlem.com/2011/11/git-tip-of-week-gc-and-pruning-this.html
+- Git - Maintenance and data recovery: https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery
 
 Vagrant
 
