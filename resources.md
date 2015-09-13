@@ -17,43 +17,6 @@ Elastic Search
 - https://github.com/elastic/elasticsearch-definitive-guide
 - Search results: https://www.elastic.co/guide/en/elasticsearch/reference/current/_the_search_api.html
 - Supports different protocols besides HTTP
-- Test script:
-
-```
-import requests
-import json
-import pprint
-
-es = 'http://hostt:9200/'
-query = '''
-{'fields': ['field1', 'field2',],
- 'filter': {'bool': {'must': [{'terms': {'field1': [1,
-                                                   2]}},
-                              {'bool': {'should': [{'term': {'field2': 'p'}},
-                                                   {'bool': {'must': [{'term': {'field3': 'interesting'}},
-                                                                     ]
-                                                             }
-                                                   }
-                                                  ]
-                                        }
-                              }
-                            ]
-                    }
-         }
-'from': 0,
-'query': {'match_all': {}},
-'size': 100,
-'search_type: 'scan',
-}
-        
-'''
-index = '/index-name'
-method = '/_search'
-payload = json.dumps(query)
-
-res = requests.get(es + index + method, data=payload)
-pprint.pprint(res.json())
-```
 
 Consul (Service discovery, DNS, Load balancing)
 
@@ -108,24 +71,6 @@ Puppet
 - Courseware learning VM: https://github.com/puppetlabs/courseware-lvm
 - Puppet cookbook: http://www.puppetcookbook.com/
 - Puppet nginx: https://github.com/jfryman/puppet-nginx
-- Example puppet manifest:
-```
-# cat nginx.pp
-class  {'nginx': }
-
-nginx::resource::vhost { 'www.myhost.com':
-    listen_port          => 80,
-    client_max_body_size => '15k',
-    large_client_header_buffers => '4 16k',
-    index_files          => [],
-    format_log           => 'forwarded_logs',
-    location_custom_cfg  => {
-      'include'           => 'uwsgi_params',
-    }
-}
-
-```
-
 
 
 Vault (Secret management)
