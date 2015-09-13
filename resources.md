@@ -1,5 +1,7 @@
 - [Infrastructure/Platform/Workflow](#infraworkflow)
 - [Web/APIs](#webapis)
+- [Programming Languages] (#programminglanguages)
+- [Data Science/Optimization/Machine Learning/Evolutionary Algorithms] (#datascienceevolutionary)
 
 
 ## Infrastructure/Platform/Workflow
