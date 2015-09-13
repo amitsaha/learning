@@ -94,6 +94,7 @@ Infrastructure testing
 - Testing services without running tests: https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests
 - Webhook server: http://avoidwork.github.io/rozu/
 - Gzip compression: http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
+- thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
 
 
 ## Programming Languages
