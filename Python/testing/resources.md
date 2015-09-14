@@ -19,4 +19,6 @@
 
 ## Property based testing
 
-- https://gist.github.com/amitsaha/8a8c5e3540f81dd22c80
+- https://github.com/DRMacIver/hypothesis
+- factcheck: https://github.com/npryce/python-factcheck
+- http://book.realworldhaskell.org/read/testing-and-quality-assurance.html
