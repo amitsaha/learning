@@ -103,7 +103,7 @@ C
 
 C++
 
-Go
+Golang
 
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
 - An Introduction to Programming in Go: https://www.golang-book.com/books/intro
@@ -113,6 +113,7 @@ Go
 - How to write Go code: https://golang.org/doc/code.html
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
+- Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
 
 Javascript
 
