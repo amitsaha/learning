@@ -138,6 +138,7 @@ Python
 - Intermediate Python: https://github.com/yasoob/intermediatePython
 - Data validation: https://github.com/alecthomas/voluptuous
 - Intermediate Python: https://github.com/yasoob/intermediatePython/blob/master/README.md
+- Python implementation of thrift: https://github.com/eleme/thriftpy
 
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
