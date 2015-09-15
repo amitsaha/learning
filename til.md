@@ -31,7 +31,7 @@ To upload a file simulating form upload via `httpie`, `http -f POST example.com/
 
 Demo of a Flask app to handle file uploads:
 
-`
+```python
 from flask import Flask, request
 app = Flask(__name__, static_url_path='')
 app.debug = True
@@ -47,6 +47,6 @@ def index():
 
 if __name__ == '__main__':
     app.run(port=8000)
-`
+```
 
 
