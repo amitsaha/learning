@@ -130,6 +130,7 @@ PHP
 - print_r: print information about a variable, call with "true" to return the stuff.
 - print_r versus var_dump: http://stackoverflow.com/questions/3406171/php-var-dump-vs-print-r
 - Extending Exception: http://php.net/manual/en/language.exceptions.extending.php
+- Incrementing/Decrementing operators: http://php.net/manual/en/language.operators.increment.php
 
 Python
 
