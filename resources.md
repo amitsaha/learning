@@ -119,6 +119,7 @@ Golang
 Javascript
 
 - Moment.js: http://momentjs.com/ (Dates)
+- Node.js tutorial: https://www.airpair.com/javascript/node-js-tutorial
 
 PHP
 
