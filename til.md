@@ -1,4 +1,4 @@
-#Today I learned about
+#Today I learned
 
 Content-Disposition: Proposed as a means for the origin server to suggest a default file name 
 (http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html)
@@ -21,6 +21,12 @@ puppet's nginx resource module's `vhost_cfg_prepend` can be used to enter arbitr
 
 
 when you do a `git commit --amend`, you are creating a new commit with a new SHA. HEAD then points to the new SHA instead of the old one.
+
+
+To upload a file simulating form upload via `httpie`, `http -f POST example.com/jobs name='John Smith' cv@~/Documents/cv.pdf`
+
+
+`MultiDict`: http://werkzeug.pocoo.org/docs/0.10/datastructures/#werkzeug.datastructures.MultiDict
 
 
 
