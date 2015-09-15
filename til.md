@@ -26,5 +26,8 @@ when you do a `git commit --amend`, you are creating a new commit with a new SHA
 To upload a file simulating form upload via `httpie`, `http -f POST example.com/jobs name='John Smith' cv@~/Documents/cv.pdf`
 
 
+`MultiDict`: http://werkzeug.pocoo.org/docs/0.10/datastructures/#werkzeug.datastructures.MultiDict
+
+
 
 
