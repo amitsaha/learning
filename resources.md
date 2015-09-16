@@ -96,6 +96,7 @@ Infrastructure testing
 - Webhook server: http://avoidwork.github.io/rozu/
 - Gzip compression: http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
 - thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
+- Facebook guidlines for making multiple requests: https://developers.facebook.com/docs/graph-api/making-multiple-requests
 
 
 ## Programming Languages
