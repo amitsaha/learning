@@ -12,7 +12,7 @@ def index():
         for attribute in ['x', 'y', 'crop_width', 'crop_height']:
             #print dir(request.files[f])
             print request.files[f].filename, request.files[f].content_type, \
-                '%s: ' % attribute, request.values.get('%s.%s' % (f, attribute), None)
+                '%s: ' % attribute, request.form.get('%s.%s' % (f, attribute), None)
     return 'OK'
 
 if __name__ == '__main__':
