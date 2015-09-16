@@ -1,7 +1,9 @@
 ## Introduction
 
+- Software testing: https://en.wikipedia.org/wiki/Software_testing
 - Testing your code: http://docs.python-guide.org/en/latest/writing/tests/
 - Types of software testing: http://www.softwaretestinghelp.com/types-of-software-testing/
+- Test fixtures: https://en.wikipedia.org/wiki/Test_fixture#Software
 
 ## Tools
 
@@ -57,3 +59,10 @@
 
 ### Continuous deployment
 
+## Miscellaneous
+
+### A/B Testing
+
+- https://en.wikipedia.org/wiki/A/B_testing
+- https://github.com/seatgeek/sixpack
+- http://flask-split.readthedocs.org/en/latest/
