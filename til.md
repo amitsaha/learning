@@ -29,5 +29,6 @@ To upload a file simulating form upload via `httpie`, `http -f POST example.com/
 `MultiDict`: http://werkzeug.pocoo.org/docs/0.10/datastructures/#werkzeug.datastructures.MultiDict
 
 
+Demo of a Flask app to handle file uploads: https://github.com/amitsaha/learning/tree/master/Python/flask-webapp/file_upload
 
 
