@@ -33,3 +33,6 @@ Demo of a Flask app to handle file uploads: https://github.com/amitsaha/learning
 
 
 Learned about mysql's ``default-group-suffix`` option: https://dev.mysql.com/doc/refman/5.0/en/option-file-options.html#option_general_defaults-group-suffix
+
+
+Started using `The silver searcher` today (https://github.com/ggreer/the_silver_searcher) and it's faster than ack!
