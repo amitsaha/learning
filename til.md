@@ -32,3 +32,4 @@ To upload a file simulating form upload via `httpie`, `http -f POST example.com/
 Demo of a Flask app to handle file uploads: https://github.com/amitsaha/learning/tree/master/Python/flask-webapp/file_upload
 
 
+Learned about mysql's ``default-group-suffix`` option: https://dev.mysql.com/doc/refman/5.0/en/option-file-options.html#option_general_defaults-group-suffix
