@@ -36,3 +36,6 @@ Learned about mysql's ``default-group-suffix`` option: https://dev.mysql.com/doc
 
 
 Started using `The silver searcher` today (https://github.com/ggreer/the_silver_searcher) and it's faster than ack!
+
+
+puppet - Copy all files in a directory: https://docs.puppetlabs.com/guides/techniques.html#how-can-i-manage-whole-directories-of-files-without-explicitly-listing-the-files
