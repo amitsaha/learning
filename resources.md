@@ -111,12 +111,12 @@ C++
 
 Golang
 
+- How to write Go code: https://golang.org/doc/code.html
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
 - An Introduction to Programming in Go: https://www.golang-book.com/books/intro
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 - Docker based tool for go: https://github.com/treeder/go
 - Awesome go: https://github.com/avelino/awesome-go/blob/master/README.md
-- How to write Go code: https://golang.org/doc/code.html
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
 - Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
