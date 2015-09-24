@@ -98,11 +98,14 @@ Infrastructure testing
 - Gzip compression: http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
 - thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
 - Facebook guidlines for making multiple requests: https://developers.facebook.com/docs/graph-api/making-multiple-requests
+- HTTP Basic vs HTTP digest auth: http://mark-kirby.co.uk/2013/how-to-authenticate-apis-http-basic-vs-http-digest/
 
 
 ## Programming Languages
 
 C
+
+- Golang style concurrency: https://github.com/sustrik/libmill
 
 C++
 
