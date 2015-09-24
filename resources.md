@@ -99,7 +99,7 @@ Infrastructure testing
 - thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
 - Facebook guidlines for making multiple requests: https://developers.facebook.com/docs/graph-api/making-multiple-requests
 - HTTP Basic vs HTTP digest auth: http://mark-kirby.co.uk/2013/how-to-authenticate-apis-http-basic-vs-http-digest/
-
+- Controlling crawling and Indexing: https://developers.google.com/webmasters/control-crawl-index/
 
 ## Programming Languages
 
