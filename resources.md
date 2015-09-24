@@ -122,6 +122,10 @@ Javascript
 
 - Moment.js: http://momentjs.com/ (Dates)
 - Node.js tutorial: https://www.airpair.com/javascript/node-js-tutorial
+- Eloquent JavaScript: http://eloquentjavascript.net/
+- algebra.js: https://github.com/nicolewhite/algebra.js
+- linear-algebra: https://github.com/hiddentao/linear-algebra
+- Numeric JS: http://www.numericjs.com/
 
 PHP
 
