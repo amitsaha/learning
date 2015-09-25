@@ -50,6 +50,10 @@ Linux Containers/Sandboxing/VMs
 - libvirt Sandbox: http://sandbox.libvirt.org/download/
 - Docker toolbox: https://www.docker.com/toolbox
 
+nginx
+
+- http://nginx.org/en/docs/http/ngx_http_rewrite_module.html
+
 SSH
 
 - How to disable host key checking? http://linuxcommando.blogspot.com.au/2008/10/how-to-disable-ssh-host-key-checking.html
