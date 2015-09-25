@@ -39,3 +39,6 @@ Started using `The silver searcher` today (https://github.com/ggreer/the_silver_
 
 
 puppet - Copy all files in a directory: https://docs.puppetlabs.com/guides/techniques.html#how-can-i-manage-whole-directories-of-files-without-explicitly-listing-the-files
+
+
+nginx rewrite rule: ^/foo/bar$ /foo/bar/ permanent will permanently redirect /foo/bar to /foo/bar/. See http://nginx.org/en/docs/http/ngx_http_rewrite_module.html 
