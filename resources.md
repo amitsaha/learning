@@ -13,6 +13,11 @@ Ansible
 
 - http://www.ansible.com/home
 
+AWS-S3
+
+- https://www.expeditedssl.com/aws-s3-in-plain-english
+- https://www.expeditedssl.com/aws-s3-buckets-of-objects
+
 Elastic Search
 
 - https://github.com/elastic/elasticsearch-definitive-guide
