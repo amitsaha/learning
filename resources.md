@@ -59,6 +59,11 @@ SSH
 - How to disable host key checking? http://linuxcommando.blogspot.com.au/2008/10/how-to-disable-ssh-host-key-checking.html
 - Permissions for .ssh: http://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder
 
+
+Status updates
+
+- https://cachethq.io/
+
 httpie
 
 - https://github.com/jkbrzt/httpie
