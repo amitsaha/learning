@@ -115,6 +115,8 @@ Infrastructure testing
 - HTTP Basic vs HTTP digest auth: http://mark-kirby.co.uk/2013/how-to-authenticate-apis-http-basic-vs-http-digest/
 - Controlling crawling and Indexing: https://developers.google.com/webmasters/control-crawl-index/
 - Mobile redirection with nginx: https://jyunderwood.com/2012/08/23/mobile-redirection-with-nginx/
+- Cloud based SMTP Server - SendGrid: https://sendgrid.com/
+- Amazon SES: https://aws.amazon.com/ses/
 
 ## Programming Languages
 
