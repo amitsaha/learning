@@ -122,6 +122,13 @@ Infrastructure testing
 - Cloud based SMTP Server - SendGrid: https://sendgrid.com/
 - Amazon SES: https://aws.amazon.com/ses/
 
+### CORS
+
+- CORS: https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
+- CORS server side: https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control
+- https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
+- http://enable-cors.org/index.html
+
 ## Programming Languages
 
 C
