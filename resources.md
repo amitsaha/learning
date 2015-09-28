@@ -64,6 +64,10 @@ Status updates
 
 - https://cachethq.io/
 
+Managing Infrastructure
+
+- Terraform: terraform.io
+
 httpie
 
 - https://github.com/jkbrzt/httpie
