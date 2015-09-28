@@ -49,3 +49,4 @@ Resources:
 
 - https://serversforhackers.com/video/php-fpm-multiple-resource-pools
 - SSL setup: https://www.digitalocean.com/community/tutorials/how-to-set-up-multiple-ssl-certificates-on-one-ip-with-nginx-on-ubuntu-12-04
+- http://php.net/manual/en/install.fpm.php
