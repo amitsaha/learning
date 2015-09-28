@@ -52,7 +52,9 @@ Linux Containers/Sandboxing/VMs
 
 nginx
 
+- How nginx processes a request: http://nginx.org/en/docs/http/request_processing.html
 - http://nginx.org/en/docs/http/ngx_http_rewrite_module.html
+- nginx load balancing: http://nginx.org/en/docs/http/load_balancing.html
 
 SSH
 
