@@ -12,3 +12,12 @@ nginx::resource::vhost { 'www.myhost2.com':
     }
 }
 
+# Remove anything that is not puppet manged
+file { '/etc/nginx/':
+    ensure  => 'directory',
+    source  => 'puppet:///modules/nginx/', # local directory
+    recurse => true,
+    purge   => true,
+    force   => true,
+  }
+
