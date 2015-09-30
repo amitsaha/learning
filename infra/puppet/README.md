@@ -35,3 +35,5 @@ node default {
 - ``facter``: Collect and display facts about the system
 
 - Resource relationships and ordering, see ``sshd/``
+
+- Modules with sub-directories in manifests, see ``modules-with-directories``
