@@ -94,6 +94,7 @@ Puppet
 - Courseware learning VM: https://github.com/puppetlabs/courseware-lvm
 - Puppet cookbook: http://www.puppetcookbook.com/
 - Puppet nginx: https://github.com/jfryman/puppet-nginx
+- Module fundamentals: https://docs.puppetlabs.com/puppet/latest/reference/modules_fundamentals.html
 
 
 Vault (Secret management)
