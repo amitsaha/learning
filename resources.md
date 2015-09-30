@@ -123,6 +123,8 @@ Infrastructure testing
 - Mobile redirection with nginx: https://jyunderwood.com/2012/08/23/mobile-redirection-with-nginx/
 - Cloud based SMTP Server - SendGrid: https://sendgrid.com/
 - Amazon SES: https://aws.amazon.com/ses/
+- Service Workers: http://www.html5rocks.com/en/tutorials/service-worker/introduction/
+- UpUp.js: https://www.talater.com/upup/getting-started-with-offline-first.html
 
 ### CORS
 
