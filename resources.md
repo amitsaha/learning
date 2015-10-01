@@ -95,6 +95,8 @@ Puppet
 - Puppet cookbook: http://www.puppetcookbook.com/
 - Puppet nginx: https://github.com/jfryman/puppet-nginx
 - Module fundamentals: https://docs.puppetlabs.com/puppet/latest/reference/modules_fundamentals.html
+- Designing Puppet – Roles and Profiles: http://www.craigdunn.org/2012/05/239/
+- Node classification - Roles and profiles: http://puppetlunch.com/puppet/roles-and-profiles.html
 
 
 Vault (Secret management)
