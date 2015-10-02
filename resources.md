@@ -155,6 +155,8 @@ Golang
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
 - Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
+- Testing in Go series: https://smartystreets.com/blog/tags/testing-in-go-series
+- Go Martini: https://github.com/go-martini/martini
 
 Javascript
 
