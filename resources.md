@@ -150,7 +150,7 @@ Golang
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
 - An Introduction to Programming in Go: https://www.golang-book.com/books/intro
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
-- Docker based tool for go: https://github.com/treeder/go
+- https://www.reddit.com/r/golang/comments/1yh6gm/new_to_go_trying_to_select_web_framework/
 - Awesome go: https://github.com/avelino/awesome-go/blob/master/README.md
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
