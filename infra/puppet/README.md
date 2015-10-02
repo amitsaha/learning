@@ -1,39 +1,31 @@
-###Puppet
+# Setup
 
-- Following along from Puppet courseware learning VM: https://github.com/puppetlabs/courseware-lvm
+- http://echorand.me/standalone-open-source-puppet-setup-on-fedora.html#.Vg4jo3VStBc
 
-- Resource, manifests, modules: https://docs.puppetlabs.com/pe/latest/puppet_modules_manifests.html
-- Commands: ``puppet parser validate``, ``puppet apply``, ``puppet master --configprint modulepath``, ``puppet resource service ntpd``
-- /etc/puppetlabs/puppet/manifests/site.pp is the main entry point used when an agent connects to a master and asks   for an updated configuration.
+# Modules
 
-```
-node default {
-    include ntp
-    }
-```
-
-Passing class parameters:
+It is not necessary to have a ``init.pp`` in your module. For example:
 
 ```
-node default {
-  class { 'ntp':
-      servers =>
-            ['nist-time-server.eoni.com','nist1-lv.ustiming.org','ntp-nist.ldsbc.edu']
-            }
-            
-            }
-            ```
+# tree test/
+test/
+└── manifests
+    └── test1.pp
 
-- Modules can define custom resources and types. For example the puppet-mysql module
-(https://forge.puppetlabs.com/puppetlabs/mysql#mysql_database)
+1 directory, 1 file
 
-- Example of site.pp configuring mysql in this directory
+```
+```
+# cat test/manifests/test1.pp 
+class test::test1 {
 
-- Variables and class parameters - class parameters allow specifying variables when
-  declaring then while defining them (See ``web/`` for an example)
+  file { '/etc/hostname': 
+    ensure => 'file',    
+  }
+}
+```
 
-- ``facter``: Collect and display facts about the system
-
-- Resource relationships and ordering, see ``sshd/``
-
-- Modules with sub-directories in manifests, see ``modules-with-directories``
+To include the ``test1`` class, we just include it in our manifest: 
+```
+include test::test1
+```
