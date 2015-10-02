@@ -1,17 +1,13 @@
-Setup
-=====
-- Create the following directory structure:
-  go/
-  └── src
-- Setup GOPATH=$HOME/work/go, and "go" executable in PATH
+##Setup
+
+- See `setup_environment.bash`
 - Documentation: godoc --http=:6060
 
-Language Features
-=================
+##Language Features
 
 - Compiled, Garbage collected
 - No semicolons
-- Go's entry point has to be a function called main() in a package, main. Without
+- Go's entry point has to be a function called `main()` in a package, `main`. Without
   one of these, the program will compile, but you cannot run the program.
 - Packages are imported usnig "import" (for e.g. import ("fmt", "os")).
 - If you import a package and not use it, it will not compile
