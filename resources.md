@@ -148,15 +148,17 @@ Golang
 
 - How to write Go code: https://golang.org/doc/code.html
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
+- Writing Web Applications: https://golang.org/doc/articles/wiki/
+- Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
+- https://www.reddit.com/r/golang/comments/1yh6gm/new_to_go_trying_to_select_web_framework/
+- Working with files in Go: http://devdungeon.com/content/working-files-go
+- Testing in Go series: https://smartystreets.com/blog/tags/testing-in-go-series
+- Go Martini: https://github.com/go-martini/martini
 - An Introduction to Programming in Go: https://www.golang-book.com/books/intro
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
-- https://www.reddit.com/r/golang/comments/1yh6gm/new_to_go_trying_to_select_web_framework/
 - Awesome go: https://github.com/avelino/awesome-go/blob/master/README.md
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
-- Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
-- Testing in Go series: https://smartystreets.com/blog/tags/testing-in-go-series
-- Go Martini: https://github.com/go-martini/martini
 
 Javascript
 
