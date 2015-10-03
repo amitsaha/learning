@@ -22,7 +22,8 @@ Command line
 
 - 20 Linux System Monitoring Tools Every SysAdmin Should Know: http://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
 - The art of command line: https://github.com/jlevy/the-art-of-command-line
-- cheat: https://github.com/chrisallenlane/cheat
+- cheat: https://github.com/chrisallenlane/
+- explainshell: https://github.com/idank/explainshell
 
 Elastic Search
 
