@@ -18,10 +18,11 @@ AWS-S3
 - https://www.expeditedssl.com/aws-s3-in-plain-english
 - https://www.expeditedssl.com/aws-s3-buckets-of-objects
 
-Command line tools
+Command line
 
 - 20 Linux System Monitoring Tools Every SysAdmin Should Know: http://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
 - The art of command line: https://github.com/jlevy/the-art-of-command-line
+- cheat: https://github.com/chrisallenlane/cheat
 
 Elastic Search
 
