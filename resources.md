@@ -18,6 +18,11 @@ AWS-S3
 - https://www.expeditedssl.com/aws-s3-in-plain-english
 - https://www.expeditedssl.com/aws-s3-buckets-of-objects
 
+Command line tools
+
+- 20 Linux System Monitoring Tools Every SysAdmin Should Know: http://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
+- The art of command line: https://github.com/jlevy/the-art-of-command-line
+
 Elastic Search
 
 - https://github.com/elastic/elasticsearch-definitive-guide
@@ -97,7 +102,6 @@ Puppet
 - Module fundamentals: https://docs.puppetlabs.com/puppet/latest/reference/modules_fundamentals.html
 - Designing Puppet – Roles and Profiles: http://www.craigdunn.org/2012/05/239/
 - Node classification - Roles and profiles: http://puppetlunch.com/puppet/roles-and-profiles.html
-
 
 Vault (Secret management)
 
