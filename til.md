@@ -42,3 +42,6 @@ puppet - Copy all files in a directory: https://docs.puppetlabs.com/guides/techn
 
 
 nginx rewrite rule: ^/foo/bar$ /foo/bar/ permanent will permanently redirect /foo/bar to /foo/bar/. See http://nginx.org/en/docs/http/ngx_http_rewrite_module.html 
+
+
+The command ``chown`` also accepts user IDs/group IDs instead of names.
