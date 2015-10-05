@@ -45,3 +45,5 @@ nginx rewrite rule: ^/foo/bar$ /foo/bar/ permanent will permanently redirect /fo
 
 
 The command ``chown`` also accepts user IDs/group IDs instead of names.
+
+My XFS root file system on Fedora was showing up as 100% full when i used `df`, but when I was viewing disk usage via `ncdu` I could see that it was hardly 15% full..Searching a bit, I used `xfs_fsr /dev/mapper/fedora_syd--asaha--d-root  -v` and all's good again. To learn more: http://linux.die.net/man/8/xfs_fsr
