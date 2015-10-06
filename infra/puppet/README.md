@@ -2,11 +2,23 @@
 
 - http://echorand.me/standalone-open-source-puppet-setup-on-fedora.html#.Vg4jo3VStBc
 
-# Modules
+# Writing your Modules
+
+## References
 
 - https://docs.puppetlabs.com/puppet/latest/reference/modules_fundamentals.html
 - https://docs.puppetlabs.com/puppet/latest/reference/lang_defined_types.html
 - https://docs.puppetlabs.com/puppet/latest/reference/lang_resources.html
+- Puppet function reference: https://docs.puppetlabs.com/references/latest/function.html#function-reference
+- Puppet language data types: https://docs.puppetlabs.com/puppet/latest/reference/lang_data_number.html#language:-data-types:-numbers
+
+
+## Notes
+
+
+Use ``puppet module generate amitsaha-classdefineexample`` to generate a module template
+
+
 
 It is not necessary to have a ``init.pp`` in your module. For example:
 
