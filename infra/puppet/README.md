@@ -111,6 +111,9 @@ classdefineexample::cronjob{'command3':
 
 ```
 
+If your defined type has a default value for all paramters, just use ``definedtype{'title':}`` to declare it.
+
+
 To Learn more:
 
 - https://docs.puppetlabs.com/puppet/4.2/reference/lang_classes.html
