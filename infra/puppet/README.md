@@ -98,6 +98,18 @@ define classdefineexample::cronjob($command) {
 }
 
 ```
+Then, we can do this:
+
+```
+classdefineexample::cronjob{'command2':
+  command => 'command2',
+}
+
+classdefineexample::cronjob{'command3':
+  command => 'command3',
+}
+
+```
 
 To Learn more:
 
