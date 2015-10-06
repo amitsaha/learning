@@ -174,6 +174,7 @@ Javascript
 - algebra.js: https://github.com/nicolewhite/algebra.js
 - linear-algebra: https://github.com/hiddentao/linear-algebra
 - Numeric JS: http://www.numericjs.com/
+- Scoping and Hoisting: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
 
 PHP
 
