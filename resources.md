@@ -135,6 +135,14 @@ Infrastructure testing
 - Service Workers: http://www.html5rocks.com/en/tutorials/service-worker/introduction/
 - UpUp.js: https://www.talater.com/upup/getting-started-with-offline-first.html
 
+### HTTP/2.0
+
+- HTTP/2: https://www.nginx.com/wp-content/uploads/2015/09/NGINX_HTTP2_White_Paper_v4.pdf
+- HTTP/2 for Python: https://github.com/lukasa/hyper
+- C: https://nghttp2.org/documentation/index.html
+- Golang support should be coming up in 1.6: https://godoc.org/golang.org/x/net/http2
+
+
 ### CORS
 
 - CORS: https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
