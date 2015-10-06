@@ -104,6 +104,7 @@ To Learn more:
 - https://docs.puppetlabs.com/puppet/4.2/reference/lang_classes.html
 - https://docs.puppetlabs.com/puppet/4.2/reference/lang_defined_types.html
 - An [extract](https://books.google.com.au/books?id=VfBZAgAAQBAJ&pg=PA64&lpg=PA64&dq=puppet+class+singleton&source=bl&ots=S0IBWpnlg-&sig=-fl_hBgIe-shuSE39IDJ9QE1QlA&hl=en&sa=X&ved=0CE0Q6AEwCGoVChMI1dyj0LysyAIVxrqUCh3TAAkO#v=onepage&q=puppet%20class%20singleton&f=false) from Pro Puppet.
+- http://www.craigdunn.org/2011/09/puppet-parameterized-classes-vs-definitions/
 
 
 
