@@ -166,7 +166,7 @@ Golang
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
 
-Javascript
+JavaScript
 
 - Moment.js: http://momentjs.com/ (Dates)
 - Node.js tutorial: https://www.airpair.com/javascript/node-js-tutorial
@@ -175,6 +175,8 @@ Javascript
 - linear-algebra: https://github.com/hiddentao/linear-algebra
 - Numeric JS: http://www.numericjs.com/
 - Scoping and Hoisting: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
+- https://github.com/clojure/clojurescript/wiki/Quick-Start
+- https://github.com/bhauman/lein-figwheel
 
 PHP
 
