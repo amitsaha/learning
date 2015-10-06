@@ -6,6 +6,8 @@
 
 ## References
 
+- Defining your own classes: https://docs.puppetlabs.com/puppet/latest/reference/lang_classes.html#defining-classes
+- Defined resource types: https://docs.puppetlabs.com/puppet/4.2/reference/lang_defined_types.html
 - https://docs.puppetlabs.com/puppet/latest/reference/modules_fundamentals.html
 - https://docs.puppetlabs.com/puppet/latest/reference/lang_defined_types.html
 - https://docs.puppetlabs.com/puppet/latest/reference/lang_resources.html
