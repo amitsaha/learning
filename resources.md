@@ -186,6 +186,8 @@ PHP
 - print_r versus var_dump: http://stackoverflow.com/questions/3406171/php-var-dump-vs-print-r
 - Extending Exception: http://php.net/manual/en/language.exceptions.extending.php
 - Incrementing/Decrementing operators: http://php.net/manual/en/language.operators.increment.php
+- Slim Framework: http://www.slimframework.com/
+- REST API for legacy PHP projects: http://www.toptal.com/php/building-rest-api-for-legacy-php-projects
 
 Python
 
