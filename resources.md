@@ -134,6 +134,7 @@ Infrastructure testing
 - Amazon SES: https://aws.amazon.com/ses/
 - Service Workers: http://www.html5rocks.com/en/tutorials/service-worker/introduction/
 - UpUp.js: https://www.talater.com/upup/getting-started-with-offline-first.html
+- http snippet generator: https://github.com/Mashape/httpsnippet
 
 ### HTTP/2.0
 
