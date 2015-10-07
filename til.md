@@ -50,3 +50,6 @@ My XFS root file system on Fedora was showing up as 100% full when i used `df`, 
 
 
 Today, I learned about how BBC in 1950 fooled people into believing that Sphagetti grows on trees: http://nowiknow.com/the-spaghetti-tree-hoax/ 
+
+
+I learned about [`autospeccing`](https://docs.python.org/3/library/unittest.mock.html#autospeccing) when mocking objects in Python.
