@@ -157,6 +157,10 @@ C
 
 - Golang style concurrency: https://github.com/sustrik/libmill
 
+Clojure
+
+- Clojure for the brave and true: http://www.braveclojure.com/
+
 C++
 
 Golang
