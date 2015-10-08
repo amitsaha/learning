@@ -200,6 +200,7 @@ PHP
 - Incrementing/Decrementing operators: http://php.net/manual/en/language.operators.increment.php
 - Slim Framework: http://www.slimframework.com/
 - REST API for legacy PHP projects: http://www.toptal.com/php/building-rest-api-for-legacy-php-projects
+- in_array: http://php.net/manual/en/function.in-array.php
 
 Python
 
