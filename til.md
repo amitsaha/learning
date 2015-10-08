@@ -53,3 +53,6 @@ Today, I learned about how BBC in 1950 fooled people into believing that Sphaget
 
 
 I learned about [`autospeccing`](https://docs.python.org/3/library/unittest.mock.html#autospeccing) when mocking objects in Python.
+
+
+I learned that CPython caches integer objects: http://codeyarns.com/2012/05/01/integer-caching-in-python/
