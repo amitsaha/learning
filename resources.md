@@ -209,9 +209,10 @@ Python
 - Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 - Intermediate Python: https://github.com/yasoob/intermediatePython
 - Data validation: https://github.com/alecthomas/voluptuous
-- Intermediate Python: https://github.com/yasoob/intermediatePython/blob/master/README.md
 - Python implementation of thrift: https://github.com/eleme/thriftpy
 - webargs: https://webargs.readthedocs.org/en/latest/
+- dateutil: https://github.com/dateutil/dateutil/
+- arrow: http://crsmithdev.com/arrow/
 
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
