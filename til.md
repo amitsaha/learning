@@ -61,3 +61,9 @@ I learned that CPython caches integer objects: http://codeyarns.com/2012/05/01/i
 Converting a string date time to epoch seconds: http://stackoverflow.com/questions/9637838/convert-string-date-to-timestamp-in-python
 
 
+Create a URL with query parameters: 
+```
+>>> urlparse.urljoin('http://foo.bar','foo?%s' % urllib.urlencode({'project_id':1, 'file_id':2}))
+'http://foo.bar/foo?project_id=1&file_id=2'
+```
+
