@@ -56,3 +56,8 @@ I learned about [`autospeccing`](https://docs.python.org/3/library/unittest.mock
 
 
 I learned that CPython caches integer objects: http://codeyarns.com/2012/05/01/integer-caching-in-python/
+
+
+Converting a string date time to epoch seconds: http://stackoverflow.com/questions/9637838/convert-string-date-to-timestamp-in-python
+
+
