@@ -218,6 +218,7 @@ Python
 - webargs: https://webargs.readthedocs.org/en/latest/
 - dateutil: https://github.com/dateutil/dateutil/
 - arrow: http://crsmithdev.com/arrow/
+- Python job scheduling for humans: https://github.com/dbader/schedule
 
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
