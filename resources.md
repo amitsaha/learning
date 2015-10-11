@@ -135,6 +135,7 @@ Infrastructure testing
 - Service Workers: http://www.html5rocks.com/en/tutorials/service-worker/introduction/
 - UpUp.js: https://www.talater.com/upup/getting-started-with-offline-first.html
 - http snippet generator: https://github.com/Mashape/httpsnippet
+- REST API with Python and Flask: https://speakerdeck.com/miguelgrinberg/creating-a-rest-api-with-python-and-flask-pydx-2015
 
 ### HTTP/2.0
 
