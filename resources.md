@@ -192,6 +192,12 @@ JavaScript
 - https://github.com/clojure/clojurescript/wiki/Quick-Start
 - https://github.com/bhauman/lein-figwheel
 
+Julia
+
+- Static analysis: http://aosabook.org/en/500L/static-analysis.html
+- Methods in Julia: http://julia.readthedocs.org/en/latest/manual/methods/
+- Julia introspects: http://blog.leahhanson.us/julia-introspects.html
+
 PHP
 
 - Comparison operators: http://php.net/manual/en/language.operators.comparison.php
@@ -220,6 +226,7 @@ Python
 - dateutil: https://github.com/dateutil/dateutil/
 - arrow: http://crsmithdev.com/arrow/
 - Python job scheduling for humans: https://github.com/dbader/schedule
+- Multiple dispatch in Python: http://multiple-dispatch.readthedocs.org/en/latest/index.html
 
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
