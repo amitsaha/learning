@@ -67,3 +67,5 @@ Create a URL with query parameters:
 'http://foo.bar/foo?project_id=1&file_id=2'
 ```
 
+
+delete-selection mode in Emacs: http://stackoverflow.com/questions/2627289/how-to-replace-a-region-in-emacs-with-yank-buffer-contents
