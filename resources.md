@@ -96,6 +96,7 @@ Miscellaneous
 - ``JSONView`` Firefox plugin for pretty viewing JSON (https://addons.mozilla.org/en-us/firefox/addon/jsonview/)
 - The magic of consistent hashing: http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html
 - Deploying GitHub pages via TravisCI: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
+- entr: http://entrproject.org/
 
 Jenkins
 
