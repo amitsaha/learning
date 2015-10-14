@@ -166,6 +166,7 @@ Infrastructure testing
 - https://facebook.github.io/graphql/
 - https://github.com/chentsulin/awesome-graphql
 - Exploring Graphql: https://www.youtube.com/watch?v=WQLzZf34FJ8
+- https://code.facebook.com/posts/1691455094417024/graphql-a-data-query-language/
 
 ## Programming Languages
 
