@@ -159,6 +159,14 @@ Infrastructure testing
 - https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
 - http://enable-cors.org/index.html
 
+
+### GraphQL
+
+- http://graphql.org
+- https://facebook.github.io/graphql/
+- https://github.com/chentsulin/awesome-graphql
+- Exploring Graphql: https://www.youtube.com/watch?v=WQLzZf34FJ8
+
 ## Programming Languages
 
 C
