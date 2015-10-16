@@ -216,6 +216,12 @@ Julia
 - Methods in Julia: http://julia.readthedocs.org/en/latest/manual/methods/
 - Julia introspects: http://blog.leahhanson.us/julia-introspects.html
 
+Lua
+
+- Programming in Lua: http://www.lua.org/pil/contents.html
+- Lua for programmers series: http://nova-fusion.com/2012/08/27/lua-for-programmers-part-1/
+- http://learnxinyminutes.com/docs/lua/
+
 PHP
 
 - Comparison operators: http://php.net/manual/en/language.operators.comparison.php
