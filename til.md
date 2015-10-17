@@ -69,3 +69,8 @@ Create a URL with query parameters:
 
 
 delete-selection mode in Emacs: http://stackoverflow.com/questions/2627289/how-to-replace-a-region-in-emacs-with-yank-buffer-contents
+
+
+Create a new environment in [conda](http://conda.pydata.org/docs/index.html) using ``conda create -n testinfra python=2.7`` and then activate it using ``source activate testinfra`` and deactivate it using ``source deactivate``. List all environments using:``conda info --envs``.
+
+
