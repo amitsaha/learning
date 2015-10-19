@@ -74,3 +74,19 @@ delete-selection mode in Emacs: http://stackoverflow.com/questions/2627289/how-t
 Create a new environment in [conda](http://conda.pydata.org/docs/index.html) using ``conda create -n testinfra python=2.7`` and then activate it using ``source activate testinfra`` and deactivate it using ``source deactivate``. List all environments using:``conda info --envs``.
 
 
+Learned about the ``maybe`` pattern (https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Maybe) and a Python implementation (https://github.com/ekampf/pymaybe). Here is an example:
+```
+from pymaybe import maybe
+
+class Number():
+    def __init__(self, value=None):
+        self.value = value
+
+n1 = Number(1)
+n2 = Number(2)
+n3 = None
+
+print([maybe(x).value.or_else(0) for x in [n1, n2, n3]])
+print([x.value if getattr(x, 'value', None) else 0 for x in [n1, n2, n3]])
+```
+
