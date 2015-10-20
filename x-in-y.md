@@ -1,4 +1,4 @@
-# How to do X in Y programming language?
+# X in Y programming language
 
 ### Command line arguments
 
