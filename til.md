@@ -90,3 +90,5 @@ print([maybe(x).value.or_else(0) for x in [n1, n2, n3]])
 print([x.value if getattr(x, 'value', None) else 0 for x in [n1, n2, n3]])
 ```
 
+
+use ``(setq-default show-trailing-whitespace t)`` to show trailing white space via Trent.
