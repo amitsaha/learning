@@ -1,5 +1,7 @@
 # X in Y programming language
 
+### Comments
+
 ### Command line arguments
 
 *C*
@@ -52,3 +54,10 @@ func main() {
 }
 
 ```
+
+### Input
+
+### Loops
+
+### Output
+
