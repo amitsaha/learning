@@ -61,3 +61,46 @@ func main() {
 
 ### Output
 
+
+### String concatenation
+
+*Golang*
+
+```
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	str_arr := []string{"hello", "world"} /*https://gobyexample.com/slices*/
+	fmt.Println(strings.Join(str_arr, " "))
+}
+
+```
+
+### Version of the compiler/interpreter
+
+*Golang*
+
+```
+package main
+
+import (
+	"fmt"
+	"runtime"
+)
+
+func main() {
+	fmt.Println(runtime.Version())
+}
+```
+
+*Python*
+
+```
+>>> import sys
+>>> sys.version
+```
