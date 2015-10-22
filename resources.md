@@ -252,6 +252,10 @@ Python
 - Python job scheduling for humans: https://github.com/dbader/schedule
 - Multiple dispatch in Python: http://multiple-dispatch.readthedocs.org/en/latest/index.html
 
+Rust
+
+- [Why Rust?](http://www.oreilly.com/programming/free/why-rust.csp)
+- [The Rust Programming Language Book](https://doc.rust-lang.org/nightly/book/)
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
 
