@@ -92,3 +92,5 @@ print([x.value if getattr(x, 'value', None) else 0 for x in [n1, n2, n3]])
 
 
 use ``(setq-default show-trailing-whitespace t)`` to show trailing white space via Trent.
+
+How to assert a mock object not being called? http://stackoverflow.com/questions/12187122/assert-a-function-method-was-not-called-using-mock
