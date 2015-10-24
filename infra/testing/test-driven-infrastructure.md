@@ -7,5 +7,6 @@
 ## Tools
 
 - [Serverspec](http://serverspec.org/)
+- [ChefSpec](https://docs.chef.io/chefspec.html)
 - [testinfra](testinfra.readthedocs.org/en/latest/)
 - [Kitchen CI](http://kitchen.ci/)
