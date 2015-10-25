@@ -13,7 +13,13 @@ Ansible
 
 - http://www.ansible.com/home
 
-AWS-S3
+AWS
+
+### Lambda
+
+- https://www.expeditedssl.com/aws-lambda-in-plain-english
+
+### S3
 
 - https://www.expeditedssl.com/aws-s3-in-plain-english
 - https://www.expeditedssl.com/aws-s3-buckets-of-objects
@@ -90,6 +96,7 @@ Miscellaneous
 - ``JSONView`` Firefox plugin for pretty viewing JSON (https://addons.mozilla.org/en-us/firefox/addon/jsonview/)
 - The magic of consistent hashing: http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html
 - Deploying GitHub pages via TravisCI: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
+- entr: http://entrproject.org/
 
 Jenkins
 
@@ -134,6 +141,16 @@ Infrastructure testing
 - Amazon SES: https://aws.amazon.com/ses/
 - Service Workers: http://www.html5rocks.com/en/tutorials/service-worker/introduction/
 - UpUp.js: https://www.talater.com/upup/getting-started-with-offline-first.html
+- http snippet generator: https://github.com/Mashape/httpsnippet
+- REST API with Python and Flask: https://speakerdeck.com/miguelgrinberg/creating-a-rest-api-with-python-and-flask-pydx-2015
+
+### HTTP/2.0
+
+- HTTP/2: https://www.nginx.com/wp-content/uploads/2015/09/NGINX_HTTP2_White_Paper_v4.pdf
+- HTTP/2 for Python: https://github.com/lukasa/hyper
+- C: https://nghttp2.org/documentation/index.html
+- Golang support should be coming up in 1.6: https://godoc.org/golang.org/x/net/http2
+
 
 ### CORS
 
@@ -142,11 +159,26 @@ Infrastructure testing
 - https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
 - http://enable-cors.org/index.html
 
+
+### GraphQL
+
+- http://graphql.org
+- https://facebook.github.io/graphql/
+- https://github.com/chentsulin/awesome-graphql
+- Exploring Graphql: https://www.youtube.com/watch?v=WQLzZf34FJ8
+- https://code.facebook.com/posts/1691455094417024/graphql-a-data-query-language/
+- Basic API with GraphQL: http://davidandsuzi.com/writing-a-basic-api-with-graphql/
+- GraphQL schema and server wrapping: https://github.com/graphql/swapi-graphql
+
 ## Programming Languages
 
 C
 
 - Golang style concurrency: https://github.com/sustrik/libmill
+
+Clojure
+
+- Clojure for the brave and true: http://www.braveclojure.com/
 
 C++
 
@@ -166,7 +198,7 @@ Golang
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
 
-Javascript
+JavaScript
 
 - Moment.js: http://momentjs.com/ (Dates)
 - Node.js tutorial: https://www.airpair.com/javascript/node-js-tutorial
@@ -174,6 +206,21 @@ Javascript
 - algebra.js: https://github.com/nicolewhite/algebra.js
 - linear-algebra: https://github.com/hiddentao/linear-algebra
 - Numeric JS: http://www.numericjs.com/
+- Scoping and Hoisting: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html and https://www.interviewcake.com/question/js-scope
+- https://github.com/clojure/clojurescript/wiki/Quick-Start
+- https://github.com/bhauman/lein-figwheel
+
+Julia
+
+- Static analysis: http://aosabook.org/en/500L/static-analysis.html
+- Methods in Julia: http://julia.readthedocs.org/en/latest/manual/methods/
+- Julia introspects: http://blog.leahhanson.us/julia-introspects.html
+
+Lua
+
+- Programming in Lua: http://www.lua.org/pil/contents.html
+- Lua for programmers series: http://nova-fusion.com/2012/08/27/lua-for-programmers-part-1/
+- http://learnxinyminutes.com/docs/lua/
 
 PHP
 
@@ -186,6 +233,9 @@ PHP
 - print_r versus var_dump: http://stackoverflow.com/questions/3406171/php-var-dump-vs-print-r
 - Extending Exception: http://php.net/manual/en/language.exceptions.extending.php
 - Incrementing/Decrementing operators: http://php.net/manual/en/language.operators.increment.php
+- Slim Framework: http://www.slimframework.com/
+- REST API for legacy PHP projects: http://www.toptal.com/php/building-rest-api-for-legacy-php-projects
+- in_array: http://php.net/manual/en/function.in-array.php
 
 Python
 
@@ -195,10 +245,17 @@ Python
 - Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 - Intermediate Python: https://github.com/yasoob/intermediatePython
 - Data validation: https://github.com/alecthomas/voluptuous
-- Intermediate Python: https://github.com/yasoob/intermediatePython/blob/master/README.md
 - Python implementation of thrift: https://github.com/eleme/thriftpy
 - webargs: https://webargs.readthedocs.org/en/latest/
+- dateutil: https://github.com/dateutil/dateutil/
+- arrow: http://crsmithdev.com/arrow/
+- Python job scheduling for humans: https://github.com/dbader/schedule
+- Multiple dispatch in Python: http://multiple-dispatch.readthedocs.org/en/latest/index.html
 
+Rust
+
+- [Why Rust?](http://www.oreilly.com/programming/free/why-rust.csp)
+- [The Rust Programming Language Book](https://doc.rust-lang.org/nightly/book/)
 
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
 
@@ -206,6 +263,8 @@ Python
 -  Introduction to Decision trees: http://www.treeplan.com/chapters/introduction-to-decision-trees.pdf
 -  Probabilistic programming and Bayesian methods for Hackers: http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
 -  A/B testing with Hierarchical models in Python: http://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/?utm_source=Python+Weekly+Newsletter&utm_campaign=147f4fa16a-Python_Weekly_Issue_205_August_20_2015&utm_medium=email&utm_term=0_9e26887fc5-147f4fa16a-312663333
+-  Practical data mining with Python: https://dzone.com/refcardz/data-mining-discovering-and
+-  Maching learning for developers: http://xyclade.github.io/MachineLearning/
 
 
 ### Talks

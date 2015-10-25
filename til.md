@@ -45,3 +45,52 @@ nginx rewrite rule: ^/foo/bar$ /foo/bar/ permanent will permanently redirect /fo
 
 
 The command ``chown`` also accepts user IDs/group IDs instead of names.
+
+My XFS root file system on Fedora was showing up as 100% full when i used `df`, but when I was viewing disk usage via `ncdu` I could see that it was hardly 15% full..Searching a bit, I used `xfs_fsr /dev/mapper/fedora_syd--asaha--d-root  -v` and all's good again. To learn more: http://linux.die.net/man/8/xfs_fsr
+
+
+Today, I learned about how BBC in 1950 fooled people into believing that Sphagetti grows on trees: http://nowiknow.com/the-spaghetti-tree-hoax/ 
+
+
+I learned about [`autospeccing`](https://docs.python.org/3/library/unittest.mock.html#autospeccing) when mocking objects in Python.
+
+
+I learned that CPython caches integer objects: http://codeyarns.com/2012/05/01/integer-caching-in-python/
+
+
+Converting a string date time to epoch seconds: http://stackoverflow.com/questions/9637838/convert-string-date-to-timestamp-in-python
+
+
+Create a URL with query parameters: 
+```
+>>> urlparse.urljoin('http://foo.bar','foo?%s' % urllib.urlencode({'project_id':1, 'file_id':2}))
+'http://foo.bar/foo?project_id=1&file_id=2'
+```
+
+
+delete-selection mode in Emacs: http://stackoverflow.com/questions/2627289/how-to-replace-a-region-in-emacs-with-yank-buffer-contents
+
+
+Create a new environment in [conda](http://conda.pydata.org/docs/index.html) using ``conda create -n testinfra python=2.7`` and then activate it using ``source activate testinfra`` and deactivate it using ``source deactivate``. List all environments using:``conda info --envs``.
+
+
+Learned about the ``maybe`` pattern (https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Maybe) and a Python implementation (https://github.com/ekampf/pymaybe). Here is an example:
+```
+from pymaybe import maybe
+
+class Number():
+    def __init__(self, value=None):
+        self.value = value
+
+n1 = Number(1)
+n2 = Number(2)
+n3 = None
+
+print([maybe(x).value.or_else(0) for x in [n1, n2, n3]])
+print([x.value if getattr(x, 'value', None) else 0 for x in [n1, n2, n3]])
+```
+
+
+use ``(setq-default show-trailing-whitespace t)`` to show trailing white space via Trent.
+
+How to assert a mock object not being called? http://stackoverflow.com/questions/12187122/assert-a-function-method-was-not-called-using-mock
