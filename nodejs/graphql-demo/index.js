@@ -22,11 +22,23 @@ var schema = new graphql.GraphQLSchema({
         fields: {
             user: {
                 type: userType,
+                // Query arguments
                 args: {
-                    id: { type: graphql.GraphQLString }
+                    id: { type: graphql.GraphQLString },
+                    name: { type: graphql.GraphQLString }
                 },
                 resolve: function (_, args) {
-                    return data[args.id];
+                    if (args.id && args.name) {
+                        for (var id in data) {
+                            if (args.id == data[id]["id"] && args.name == data[id]["name"]) {
+                                return data[args.id];
+                            }
+                        }
+                    } else {
+                        if (args.id) {
+                            return data[args.id];
+                        }
+                    }
                 }
             }
         }
