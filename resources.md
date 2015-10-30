@@ -209,6 +209,7 @@ JavaScript
 - Scoping and Hoisting: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html and https://www.interviewcake.com/question/js-scope
 - https://github.com/clojure/clojurescript/wiki/Quick-Start
 - https://github.com/bhauman/lein-figwheel
+- nodemon: https://github.com/remy/nodemon
 
 Julia
 
