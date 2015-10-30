@@ -14,8 +14,8 @@ var userType = new graphql.GraphQLObjectType({
     }
 });
 
-// Define our schema, with one top level field, named `user`, that
-// takes an `id` argument and returns the User with that ID.
+// Define our schema, with one top level field, named `user`, that allows
+// querying by name, id or both
 var schema = new graphql.GraphQLSchema({
     query: new graphql.GraphQLObjectType({
         name: 'Query',
@@ -31,12 +31,16 @@ var schema = new graphql.GraphQLSchema({
                     if (args.id && args.name) {
                         for (var id in data) {
                             if (args.id == data[id]["id"] && args.name == data[id]["name"]) {
-                                return data[args.id];
+                                return data[id];
                             }
                         }
-                    } else {
-                        if (args.id) {
-                            return data[args.id];
+                    } else if (args.id) {
+                        return data[args.id];
+                    } else  if (args.name) {
+                        for (var id in data) {
+                            if (args.name == data[id]["name"]) {
+                                return data[id];
+                            }
                         }
                     }
                 }
