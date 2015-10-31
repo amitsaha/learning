@@ -180,6 +180,11 @@ Clojure
 
 - Clojure for the brave and true: http://www.braveclojure.com/
 
+clojurescript
+
+- https://github.com/clojure/clojurescript/wiki/Quick-Start
+- https://github.com/bhauman/lein-figwheel
+
 C++
 
 Golang
@@ -207,8 +212,6 @@ JavaScript
 - linear-algebra: https://github.com/hiddentao/linear-algebra
 - Numeric JS: http://www.numericjs.com/
 - Scoping and Hoisting: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html and https://www.interviewcake.com/question/js-scope
-- https://github.com/clojure/clojurescript/wiki/Quick-Start
-- https://github.com/bhauman/lein-figwheel
 - nodemon: https://github.com/remy/nodemon
 
 Julia
