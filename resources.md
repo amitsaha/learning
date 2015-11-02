@@ -213,6 +213,9 @@ JavaScript
 - Numeric JS: http://www.numericjs.com/
 - Scoping and Hoisting: http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html and https://www.interviewcake.com/question/js-scope
 - nodemon: https://github.com/remy/nodemon
+- ES6 promises: https://ponyfoo.com/articles/es6-promises-in-depth
+- JS promises: http://www.html5rocks.com/en/tutorials/es6/promises/#toc-chaining
+- JavaScript promises: http://www.toptal.com/javascript/javascript-promises
 
 Julia
 
