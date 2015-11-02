@@ -1,0 +1,1 @@
+https://doc.rust-lang.org/nightly/book/dining-philosophers.html

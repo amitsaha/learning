@@ -1,0 +1,70 @@
+use std::thread;
+use std::sync::{Mutex, Arc};
+
+struct Philosopher {
+    name: String,
+    left: usize,
+    right: usize,
+}
+
+impl Philosopher {
+    fn new(name: &str, left: usize, right: usize) -> Philosopher {
+        Philosopher {
+            name: name.to_string(),
+            left: left,
+            right: right,
+        }
+    }
+
+    fn eat(&self, table: &Table) {
+
+        println!("{} is trying to acquire forks {} and {}", self.name, self.left, self.right);
+        // Get left fork, _underscore indicates that we do not
+        // plan to use this variable later
+        let _left = table.forks[self.left].lock().unwrap();
+        // Wait and get the right fork
+        thread::sleep_ms(150);
+        // Get right fork
+        let _right = table.forks[self.right].lock().unwrap();
+        // Got both forks, start eating
+        println!("{} is eating with forks L: {} R: {}", self.name, self.left, self.right);
+        // Eats
+        thread::sleep_ms(1000);
+        // Done eating
+        println!("{} is done eating.", self.name);
+    }
+}
+
+struct Table {
+    forks: Vec<Mutex<()>>,
+}
+
+fn main() {
+    let table = Arc::new(Table { forks: vec![
+        Mutex::new(()),
+        Mutex::new(()),
+        Mutex::new(()),
+        Mutex::new(()),
+        Mutex::new(()),
+        ]});
+
+    let philosophers = vec![
+        Philosopher::new("Judith Butler", 0, 1),
+        Philosopher::new("Gilles Deleuze", 1, 2),
+        Philosopher::new("Karl Marx", 2, 3),
+        Philosopher::new("Emma Goldman", 3, 4),
+        Philosopher::new("Michel Foucault", 0, 4),
+        ];
+
+    let handles: Vec<_> = philosophers.into_iter().map(|p| {
+        let table = table.clone();
+        thread::spawn(move || {
+            p.eat(&table);
+        })
+    }).collect();
+
+    for h in handles {
+        h.join().unwrap();
+    }
+}
+
