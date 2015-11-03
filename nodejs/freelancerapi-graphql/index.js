@@ -22,7 +22,7 @@ var get_request_data = {
 var schema = new graphql.GraphQLSchema({
     query: new graphql.GraphQLObjectType({
         name: 'Query',
-        fields: {
+        fields: () => ({
             project: {
                 type: projectType,
                 // Query project by ID
@@ -48,10 +48,41 @@ var schema = new graphql.GraphQLSchema({
                         return null;
                     }
                 }
+            },
+            projects: {
+                type: new graphql.GraphQLList(projectType),
+                args: {
+                    owner_id: { type: graphql.GraphQLInt },
+                },
+                resolve: function(_, args) {
+                    if (args.owner_id) {
+                        get_request_data['uri'] = 'https://www.freelancer.com/api/projects/0.1/projects/?owners[]=' + args.owner_id;
+                        var get_result = http_promise(get_request_data)
+                            .then(function(data) {
+                                json_projects_data = JSON.parse(data)['result']['projects'];
+                                var projects = [];
+                                for (var project in json_projects_data){
+                                    projects.push({'owner_id': json_projects_data[project]['owner_id'],
+                                                   'id': json_projects_data[project]['id'],
+                                                   'description': json_projects_data[project]['preview_description']
+                                                  })
+                                }
+                                return projects;
+                            })
+                            .catch(function(err) {
+                                return new Error(err['response']['body']);
+                            });
+                        return get_result;
+                    } else {
+                        return null;
+                    }
+                    
+                }
             }
-        }
+        })
     })
 });
+
 console.log('GraphQL Server online!');
 express()
     .use('/graphql', graphqlHTTP({ schema: schema, pretty: true }))
