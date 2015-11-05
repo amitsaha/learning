@@ -11,3 +11,4 @@
 - [inspec](https://github.com/chef/inspec) 
 - [testinfra](https://testinfra.readthedocs.org/en/latest/)
 - [Kitchen CI](http://kitchen.ci/)
+- [Goss](https://github.com/aelsabbahy/goss#what-is-goss)
