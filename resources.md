@@ -202,6 +202,7 @@ Golang
 - Awesome go: https://github.com/avelino/awesome-go/blob/master/README.md
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
+- Golang Amazon: https://github.com/mitchellh/goamz, http://stackoverflow.com/questions/22867013/golang-connecting-to-s3
 
 JavaScript
 
