@@ -99,4 +99,4 @@ How to assert a mock object not being called? http://stackoverflow.com/questions
 Uploading a file via ``httpie``: http --form POST <blah> filedata=@~/scientific23.png 
 
 
-
+I have usually used git rebase -i to squash commits, but I think git reset --soft is less magical: http://stackoverflow.com/a/5201642/59634
