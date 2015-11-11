@@ -123,3 +123,25 @@ To Learn more:
 
 
 
+## extlookup
+
+```
+
+# tree extlookupdemo/
+extlookupdemo/
+├── data
+│   └── data.csv
+└── manifests
+    ├── init.pp
+    └── init.pp~
+
+class extlookupdemo {
+
+  $extlookup_datadir = "/etc/puppet/modules/extlookupdemo/data"
+  $redis_host = extlookup('redis_host')
+}
+
+```
+
+
+
