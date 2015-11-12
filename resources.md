@@ -132,7 +132,6 @@ Infrastructure testing
 - Testing services without running tests: https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests
 - Webhook server: http://avoidwork.github.io/rozu/
 - Gzip compression: http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
-- thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
 - Facebook guidlines for making multiple requests: https://developers.facebook.com/docs/graph-api/making-multiple-requests
 - HTTP Basic vs HTTP digest auth: http://mark-kirby.co.uk/2013/how-to-authenticate-apis-http-basic-vs-http-digest/
 - Controlling crawling and Indexing: https://developers.google.com/webmasters/control-crawl-index/
@@ -162,7 +161,9 @@ Infrastructure testing
 ### Network services across multiple languages
 
 - https://thrift.apache.org/
-
+- thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
+- Python implementation of thrift: https://github.com/eleme/thriftpy
+- zerorpc: http://www.zerorpc.io/
 
 ### GraphQL
 
@@ -257,7 +258,6 @@ Python
 - Testing Flask applications: http://flask.pocoo.org/docs/0.10/testing/#testing-flask-applications
 - Intermediate Python: https://github.com/yasoob/intermediatePython
 - Data validation: https://github.com/alecthomas/voluptuous
-- Python implementation of thrift: https://github.com/eleme/thriftpy
 - webargs: https://webargs.readthedocs.org/en/latest/
 - dateutil: https://github.com/dateutil/dateutil/
 - arrow: http://crsmithdev.com/arrow/
