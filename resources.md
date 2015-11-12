@@ -1,7 +1,7 @@
 *Table of contents*
 
 - [Infrastructure/Platform/Workflow](#infraworkflow)
-- [Web/APIs](#webapis)
+- [Web/APIs/Network Services](#webapis)
 - [Programming Languages](#programming-languages)
 - [Data Science/Optimization/Machine Learning/Evolutionary Algorithms](#data-scienceoptimizationmachine-learningevolutionary-algorithms)
 - [Talks](#talks)
@@ -158,6 +158,10 @@ Infrastructure testing
 - CORS server side: https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control
 - https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
 - http://enable-cors.org/index.html
+
+### Network services across multiple languages
+
+- https://thrift.apache.org/
 
 
 ### GraphQL
