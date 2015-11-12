@@ -4,6 +4,8 @@
 
 # include <editline/readline.h>
 
+# include "mpc.h"
+
 # define EXIT_PROMPT "exit"
 
 int main(int argc, char **argv) {

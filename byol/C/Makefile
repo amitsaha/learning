@@ -1,2 +1,2 @@
-repl:
-	gcc -o repl prompt.c -ledit
+parsing:
+	gcc -o parsing parsing.c mpc.c -ledit 
