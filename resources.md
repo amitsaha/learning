@@ -208,6 +208,9 @@ Golang
 - Go Books: https://github.com/dariubs/GoBooks
 - Learning Go: http://www.miek.nl/go/
 - Golang Amazon: https://github.com/mitchellh/goamz, http://stackoverflow.com/questions/22867013/golang-connecting-to-s3
+- Image cropping: https://github.com/oliamb/cutter
+- Image resizing: https://github.com/nfnt/resize
+- Image processing: https://github.com/disintegration/imaging
 
 JavaScript
 
