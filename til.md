@@ -104,3 +104,5 @@ I have usually used git rebase -i to squash commits, but I think git reset --sof
 
 Python: To check if a mocked object has been called, ``self.assertTrue(mocked_object.called)``.
 
+
+List of MySQL user accounts: ``SELECT User FROM mysql.user;``
