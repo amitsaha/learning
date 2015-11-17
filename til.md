@@ -100,3 +100,7 @@ Uploading a file via ``httpie``: http --form POST <blah> filedata=@~/scientific2
 
 
 I have usually used git rebase -i to squash commits, but I think git reset --soft is less magical: http://stackoverflow.com/a/5201642/59634
+
+
+Python: To check if a mocked object has been called, ``self.assertTrue(mocked_object.called)``.
+
