@@ -1,4 +1,4 @@
-# Test for the role of PYTHONHASHSEED - urlllib urlencode
+# Test for the role of PYTHONHASHSEED - urllib urlencode
 
 import urllib
 urlencode_input = {'param1': 'value',
