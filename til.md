@@ -106,3 +106,6 @@ Python: To check if a mocked object has been called, ``self.assertTrue(mocked_ob
 
 
 List of MySQL user accounts: ``SELECT User FROM mysql.user;``
+
+
+Learned about the N+1 selects "problem" in ORMs from http://openmymind.net/scaling-viki/. Here is a stack overflow question/answer: http://stackoverflow.com/questions/97197/what-is-the-n1-selects-issue and learned that SQLAlchemy (Python ORM) addresses this (http://www.sqlalchemy.org/features.html)
