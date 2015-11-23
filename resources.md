@@ -180,6 +180,8 @@ Infrastructure testing
 C
 
 - Golang style concurrency: https://github.com/sustrik/libmill
+- Build Your Own Lisp: 
+http://www.buildyourownlisp.com
 
 Clojure
 
@@ -195,6 +197,8 @@ C++
 Golang
 
 - How to write Go code: https://golang.org/doc/code.html
+- Effective Go: 
+https://golang.org/doc/effective_go.html
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
 - Writing Web Applications: https://golang.org/doc/articles/wiki/
 - Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
