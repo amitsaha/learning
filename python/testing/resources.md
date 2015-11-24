@@ -22,6 +22,8 @@
 
 ## Unit testing
 
+- PYTHONHASHSEED and your tests: http://echorand.me/pythonhashseed-and-your-tests.html#.VlOzsyArJhE
+
 ## Integration testing
 
 ## Application specific testing
