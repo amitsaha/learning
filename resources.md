@@ -240,6 +240,7 @@ Julia
 - Static analysis: http://aosabook.org/en/500L/static-analysis.html
 - Methods in Julia: http://julia.readthedocs.org/en/latest/manual/methods/
 - Julia introspects: http://blog.leahhanson.us/julia-introspects.html
+- Julia web stack: http://juliawebstack.org/
 
 Lua
 
