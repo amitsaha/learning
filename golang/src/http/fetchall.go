@@ -1,4 +1,7 @@
-// Fetch prints the content found at URLs concurrently using goroutines
+/* Fetch prints the content found at URLs concurrently using goroutines
+http://www.informit.com/articles/article.aspx?p=2453564&seqNum=6
+*/
+
 package main
 import (
 	"fmt"
