@@ -220,6 +220,7 @@ https://golang.org/doc/effective_go.html
 - Link shortener: http://www.minaandrawos.com/2015/09/05/link-shortener-golang-web-service-tutorial-mongodb/
 - expvar: http://go-wise.blogspot.com.au/2011/10/expvar.html
 - router: https://github.com/karlseguin/router
+- A whirlwind tour of Go's runtime variables: http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables
 
 JavaScript
 
