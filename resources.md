@@ -97,6 +97,7 @@ Miscellaneous
 - The magic of consistent hashing: http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html
 - Deploying GitHub pages via TravisCI: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 - entr: http://entrproject.org/
+- Linux performance analysis in 60 seconds: http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html?m=0
 
 Jenkins
 
