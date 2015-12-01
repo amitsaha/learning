@@ -33,6 +33,8 @@ Command line
 
 Elastic Search
 
+- Setup and installation: https://www.elastic.co/guide/en/elasticsearch/reference/1.4/setup.html
+- https://www.elastic.co/blog/what-is-an-elasticsearch-index
 - https://github.com/elastic/elasticsearch-definitive-guide
 - Search results: https://www.elastic.co/guide/en/elasticsearch/reference/current/_the_search_api.html
 - Supports different protocols besides HTTP
