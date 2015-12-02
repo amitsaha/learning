@@ -36,8 +36,8 @@ Elastic Search
 - Setup and installation: https://www.elastic.co/guide/en/elasticsearch/reference/1.4/setup.html
 - https://www.elastic.co/blog/what-is-an-elasticsearch-index
 - https://github.com/elastic/elasticsearch-definitive-guide
-- Search results: https://www.elastic.co/guide/en/elasticsearch/reference/current/_the_search_api.html
-- Supports different protocols besides HTTP
+- Tribe node: https://www.elastic.co/blog/tribe-node
+- Running elasticsearch in production: http://blogs.justenougharchitecture.com/running-elasticsearch-in-production/
 
 Consul (Service discovery, DNS, Load balancing)
 
