@@ -203,9 +203,7 @@ Golang
 - Effective Go: 
 https://golang.org/doc/effective_go.html
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
-- Writing Web Applications: https://golang.org/doc/articles/wiki/
 - Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
-- https://www.reddit.com/r/golang/comments/1yh6gm/new_to_go_trying_to_select_web_framework/
 - Working with files in Go: http://devdungeon.com/content/working-files-go
 - Testing in Go series: https://smartystreets.com/blog/tags/testing-in-go-series
 - Go Martini: https://github.com/go-martini/martini
@@ -224,6 +222,7 @@ https://golang.org/doc/effective_go.html
 - expvar: http://go-wise.blogspot.com.au/2011/10/expvar.html
 - router: https://github.com/karlseguin/router
 - A whirlwind tour of Go's runtime variables: http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables
+- afero: A universal filesystem library: https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/
 
 JavaScript
 
