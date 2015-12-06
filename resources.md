@@ -280,6 +280,7 @@ Python
 - Python job scheduling for humans: https://github.com/dbader/schedule
 - Multiple dispatch in Python: http://multiple-dispatch.readthedocs.org/en/latest/index.html
 - Concurrent I/O: https://curio.readthedocs.org/en/latest/tutorial.html
+- RapidJSON: https://github.com/kenrobbins/python-rapidjson
 
 Rust
 
