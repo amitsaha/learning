@@ -286,6 +286,11 @@ Rust
 - [Why Rust?](http://www.oreilly.com/programming/free/why-rust.csp)
 - [The Rust Programming Language Book](https://doc.rust-lang.org/nightly/book/)
 
+Swift language
+
+- [Getting started](https://swift.org/getting-started/)
+- [Swift at IBM](https://developer.ibm.com/swift/)
+
 ## Data Science/Optimization/Machine Learning/Evolutionary Algorithms
 
 -  A few things to know about machine learning: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
