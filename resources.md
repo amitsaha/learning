@@ -152,6 +152,7 @@ Infrastructure testing
 - HTTP/2 for Python: https://github.com/lukasa/hyper
 - C: https://nghttp2.org/documentation/index.html
 - Golang support should be coming up in 1.6: https://godoc.org/golang.org/x/net/http2
+- Tools for debugging/testing/using Http/2: https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/
 
 
 ### CORS
