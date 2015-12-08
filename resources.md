@@ -289,6 +289,8 @@ Python
 - Multiple dispatch in Python: http://multiple-dispatch.readthedocs.org/en/latest/index.html
 - Concurrent I/O: https://curio.readthedocs.org/en/latest/tutorial.html
 - RapidJSON: https://github.com/kenrobbins/python-rapidjson
+- Working with binary data in Python: http://www.devdungeon.com/content/working-binary-data-python
+- Pi3D: https://pi3d.github.io/html/ReadMe.html
 
 Rust
 
