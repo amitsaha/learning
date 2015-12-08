@@ -31,13 +31,19 @@ Command line
 - cheat: https://github.com/chrisallenlane/
 - explainshell: https://github.com/idank/explainshell
 
-Elastic Search
+Databases
+
+- Readings in Database Systems: http://www.redbook.io/
+
+
+Elastic Search and others
 
 - Setup and installation: https://www.elastic.co/guide/en/elasticsearch/reference/1.4/setup.html
 - https://www.elastic.co/blog/what-is-an-elasticsearch-index
 - https://github.com/elastic/elasticsearch-definitive-guide
 - Tribe node: https://www.elastic.co/blog/tribe-node
 - Running elasticsearch in production: http://blogs.justenougharchitecture.com/running-elasticsearch-in-production/
+- Logstash input plugins: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html
 
 Consul (Service discovery, DNS, Load balancing)
 
