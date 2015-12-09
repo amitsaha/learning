@@ -232,6 +232,9 @@ https://golang.org/doc/effective_go.html
 - afero: A universal filesystem library: https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/
 - Bleve: Full text search/indexing library - http://www.blevesearch.com/
 - gorename: https://texlution.com/post/gorename/
+- vet: https://golang.org/cmd/vet/
+- goimports: https://godoc.org/golang.org/x/tools/cmd/goimports
+- golint: https://github.com/golang/lint
 
 JavaScript
 
