@@ -231,6 +231,7 @@ https://golang.org/doc/effective_go.html
 - A whirlwind tour of Go's runtime variables: http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables
 - afero: A universal filesystem library: https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/
 - Bleve: Full text search/indexing library - http://www.blevesearch.com/
+- gorename: https://texlution.com/post/gorename/
 
 JavaScript
 
