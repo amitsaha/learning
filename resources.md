@@ -235,6 +235,8 @@ https://golang.org/doc/effective_go.html
 - vet: https://golang.org/cmd/vet/
 - goimports: https://godoc.org/golang.org/x/tools/cmd/goimports
 - golint: https://github.com/golang/lint
+- Debugging with Delve: https://blog.gopheracademy.com/advent-2015/debugging-with-delve/
+- Goa: Design based HTTP-microservice dev: http://goa.design/index.html, Untangling microservices: https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/
 
 JavaScript
 
