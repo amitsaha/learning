@@ -151,6 +151,7 @@ Infrastructure testing
 - UpUp.js: https://www.talater.com/upup/getting-started-with-offline-first.html
 - http snippet generator: https://github.com/Mashape/httpsnippet
 - REST API with Python and Flask: https://speakerdeck.com/miguelgrinberg/creating-a-rest-api-with-python-and-flask-pydx-2015
+- API Gateway: https://getkong.org/about/
 
 ### HTTP/2.0
 
