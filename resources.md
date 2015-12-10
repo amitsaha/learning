@@ -206,6 +206,11 @@ clojurescript
 
 C++
 
+Elm
+
+- Real world Elm - Part 1: http://engineering.truqu.com/2015/08/19/real-world-elm-part-1.html
+- Real World Elm - Part 2: http://engineering.truqu.com/2015/09/25/real-world-elm-part-2.html
+
 Golang
 
 - How to write Go code: https://golang.org/doc/code.html
