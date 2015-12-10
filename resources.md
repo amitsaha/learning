@@ -324,6 +324,7 @@ Swift language
 -  Practical data mining with Python: https://dzone.com/refcardz/data-mining-discovering-and
 -  Maching learning for developers: http://xyclade.github.io/MachineLearning/
 -  PROBABILISTIC DATA STRUCTURES FOR WEB ANALYTICS AND DATA MINING: https://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/
+-  Pattern: https://github.com/clips/pattern
 
 
 ### Talks
