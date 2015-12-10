@@ -152,6 +152,7 @@ Infrastructure testing
 - http snippet generator: https://github.com/Mashape/httpsnippet
 - REST API with Python and Flask: https://speakerdeck.com/miguelgrinberg/creating-a-rest-api-with-python-and-flask-pydx-2015
 - API Gateway: https://getkong.org/about/
+- JSON decode benchmarking: http://blog.ionelmc.ro/2015/11/22/memory-use-and-speed-of-json-parsers/
 
 ### HTTP/2.0
 
