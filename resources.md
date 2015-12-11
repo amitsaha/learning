@@ -44,6 +44,15 @@ Elastic Search and others
 - Tribe node: https://www.elastic.co/blog/tribe-node
 - Running elasticsearch in production: http://blogs.justenougharchitecture.com/running-elasticsearch-in-production/
 - Logstash input plugins: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html
+- https://www.elastic.co/products/beats
+- Inverted index: https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html
+- Making text searchable: https://www.elastic.co/guide/en/elasticsearch/guide/current/making-text-searchable.html
+- Distributed search execution: https://www.elastic.co/guide/en/elasticsearch/guide/current/distributed-search.html
+- Analyzer: https://www.elastic.co/guide/en/elasticsearch/guide/current/analysis-intro.html
+- Inside a shard: https://www.elastic.co/guide/en/elasticsearch/guide/current/inside-a-shard.html
+- Transactions in Elastic search: https://blog.codecentric.de/en/2014/10/transactions-elasticsearch/
+- Good terminology guide: Running elasticsearch in production: http://blogs.justenougharchitecture.com/running-elasticsearch-in-production/
+
 
 Consul (Service discovery, DNS, Load balancing)
 
