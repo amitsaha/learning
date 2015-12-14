@@ -52,6 +52,7 @@ Elastic Search and others
 - Inside a shard: https://www.elastic.co/guide/en/elasticsearch/guide/current/inside-a-shard.html
 - Transactions in Elastic search: https://blog.codecentric.de/en/2014/10/transactions-elasticsearch/
 - Good terminology guide: Running elasticsearch in production: http://blogs.justenougharchitecture.com/running-elasticsearch-in-production/
+- Leader election: https://www.elastic.co/blog/found-leader-election-in-general
 
 
 Consul (Service discovery, DNS, Load balancing)
