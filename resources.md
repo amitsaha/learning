@@ -325,6 +325,10 @@ Rust
 - [Why Rust?](http://www.oreilly.com/programming/free/why-rust.csp)
 - [The Rust Programming Language Book](https://doc.rust-lang.org/nightly/book/)
 
+Scala
+
+- Scala school: https://twitter.github.io/scala_school/
+
 Swift language
 
 - [Getting started](https://swift.org/getting-started/)
