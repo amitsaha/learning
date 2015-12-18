@@ -259,6 +259,7 @@ https://golang.org/doc/effective_go.html
 - golint: https://github.com/golang/lint
 - Debugging with Delve: https://blog.gopheracademy.com/advent-2015/debugging-with-delve/
 - Goa: Design based HTTP-microservice dev: http://goa.design/index.html, Untangling microservices: https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/
+- imgix Golang library:https://www.imgix.com/docs/libraries/go 
 
 JavaScript
 
@@ -356,4 +357,3 @@ Concurrency is not Parallellism: http://blog.golang.org/concurrency-is-not-paral
 - Concurrency: structure, parallelism: execution
 - Concurrency: structure a thing, may be you can parallelize, goal is not parallelism (3:00)
 - Concurrency: structure a program into pieces and communicate between them
-
