@@ -30,6 +30,7 @@ Command line
 - The art of command line: https://github.com/jlevy/the-art-of-command-line
 - cheat: https://github.com/chrisallenlane/
 - explainshell: https://github.com/idank/explainshell
+- Encrypt and Decrypt files using pgp: http://www.cyberciti.biz/tips/linux-how-to-encrypt-and-decrypt-files-with-a-password.html
 
 Databases
 
