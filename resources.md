@@ -211,6 +211,7 @@ C
 - Golang style concurrency: https://github.com/sustrik/libmill
 - Build Your Own Lisp: 
 http://www.buildyourownlisp.com
+- hwloc: https://github.com/open-mpi/hwloc
 
 Clojure
 
@@ -325,6 +326,7 @@ Python
 - Working with binary data in Python: http://www.devdungeon.com/content/working-binary-data-python
 - Pi3D: https://pi3d.github.io/html/ReadMe.html
 - Folium: https://github.com/python-visualization/folium
+- TinyDb: http://tinydb.readthedocs.org/en/latest/getting-started.html
 
 Rust
 
