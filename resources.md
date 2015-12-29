@@ -324,6 +324,7 @@ Python
 - RapidJSON: https://github.com/kenrobbins/python-rapidjson
 - Working with binary data in Python: http://www.devdungeon.com/content/working-binary-data-python
 - Pi3D: https://pi3d.github.io/html/ReadMe.html
+- Folium: https://github.com/python-visualization/folium
 
 Rust
 
