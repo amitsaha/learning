@@ -98,6 +98,9 @@ nginx
 - How nginx processes a request: http://nginx.org/en/docs/http/request_processing.html
 - http://nginx.org/en/docs/http/ngx_http_rewrite_module.html
 - nginx load balancing: http://nginx.org/en/docs/http/load_balancing.html
+- http://www.unixmen.com/install-lemp-server-nginx-mariadb-and-php-on-fedora-22/
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-multiple-ssl-certificates-on-one-ip-with-nginx-on-ubuntu-12-04
+
 
 SSH
 
@@ -127,6 +130,8 @@ Miscellaneous
 - The magic of consistent hashing: http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html
 - Deploying GitHub pages via TravisCI: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 - Basic Infrastructure Patterns: http://www.scriptcrafty.com/basic-infrastructure-patterns/
+
+
 
 Jenkins
 
@@ -231,8 +236,15 @@ C++
 
 Elm
 
+- Elm by example: http://elm-by-example.org/
 - Real world Elm - Part 1: http://engineering.truqu.com/2015/08/19/real-world-elm-part-1.html
 - Real World Elm - Part 2: http://engineering.truqu.com/2015/09/25/real-world-elm-part-2.html
+
+Elixir
+
+- http://elixir-lang.org/getting-started/introduction.html
+- Elixir by example: https://github.com/jeregrine/elixir-by-example
+
 
 Golang
 
@@ -312,6 +324,7 @@ PHP
 - Slim Framework: http://www.slimframework.com/
 - REST API for legacy PHP projects: http://www.toptal.com/php/building-rest-api-for-legacy-php-projects
 - in_array: http://php.net/manual/en/function.in-array.php
+- https://serversforhackers.com/video/php-fpm-multiple-resource-pools
 
 Python
 
