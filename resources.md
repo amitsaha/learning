@@ -15,6 +15,10 @@ Ansible
 
 AWS
 
+### Tools
+
+- https://github.com/awslabs/aws-shell
+
 ### Lambda
 
 - https://www.expeditedssl.com/aws-lambda-in-plain-english
