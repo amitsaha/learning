@@ -281,6 +281,7 @@ https://golang.org/doc/effective_go.html
 - Goa: Design based HTTP-microservice dev: http://goa.design/index.html, Untangling microservices: https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/
 - imgix Golang library:https://www.imgix.com/docs/libraries/go 
 - Golang microservies library from new york times:https://github.com/nytimes/gizmo
+- TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 
 
 JavaScript
