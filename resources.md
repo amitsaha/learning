@@ -372,6 +372,7 @@ Swift language
 -  Maching learning for developers: http://xyclade.github.io/MachineLearning/
 -  PROBABILISTIC DATA STRUCTURES FOR WEB ANALYTICS AND DATA MINING: https://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/
 -  Pattern: https://github.com/clips/pattern
+-  Neural networks and Deep learning: http://neuralnetworksanddeeplearning.com/
 
 
 ### Talks
