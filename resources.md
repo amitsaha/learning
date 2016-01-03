@@ -346,6 +346,7 @@ Python
 - Pi3D: https://pi3d.github.io/html/ReadMe.html
 - Folium: https://github.com/python-visualization/folium
 - TinyDb: http://tinydb.readthedocs.org/en/latest/getting-started.html
+- Profiling Python in production: https://nylas.com/blog/performance
 
 Rust
 
