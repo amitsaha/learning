@@ -347,6 +347,7 @@ Python
 - Folium: https://github.com/python-visualization/folium
 - TinyDb: http://tinydb.readthedocs.org/en/latest/getting-started.html
 - Profiling Python in production: https://nylas.com/blog/performance
+- https://github.com/jonathanslenders/python-prompt-toolkit
 
 Rust
 
