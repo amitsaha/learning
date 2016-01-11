@@ -338,6 +338,7 @@ Python
 - webargs: https://webargs.readthedocs.org/en/latest/
 - dateutil: https://github.com/dateutil/dateutil/
 - arrow: http://crsmithdev.com/arrow/
+- Delorean: http://delorean.readthedocs.org/en/latest/
 - Python job scheduling for humans: https://github.com/dbader/schedule
 - Multiple dispatch in Python: http://multiple-dispatch.readthedocs.org/en/latest/index.html
 - Concurrent I/O: https://curio.readthedocs.org/en/latest/tutorial.html
@@ -348,6 +349,9 @@ Python
 - TinyDb: http://tinydb.readthedocs.org/en/latest/getting-started.html
 - Profiling Python in production: https://nylas.com/blog/performance
 - https://github.com/jonathanslenders/python-prompt-toolkit
+- pipreqs: https://github.com/bndr/pipreqs
+- https://github.com/Damnever/pigar
+- https://github.com/DenisCarriere/geocoder
 
 Rust
 
