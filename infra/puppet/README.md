@@ -13,6 +13,7 @@
 - https://docs.puppetlabs.com/puppet/latest/reference/lang_resources.html
 - Puppet function reference: https://docs.puppetlabs.com/references/latest/function.html#function-reference
 - Puppet language data types: https://docs.puppetlabs.com/puppet/latest/reference/lang_data_number.html#language:-data-types:-numbers
+- Hiera: https://puppetlabs.com/blog/get-into-hiera-by-skipping-hierarchy
 
 
 ## Notes
