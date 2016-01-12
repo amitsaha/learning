@@ -3,6 +3,7 @@
 ## Articles
 
 - http://spin.atomicobject.com/2014/10/28/test-driven-infrastructure-tdi/
+- https://docs.puppetlabs.com/guides/module_guides/bgtm.html#step-three-module-testing (puppet specific)
 
 ## Tools
 
