@@ -7,6 +7,7 @@
 ## Tools
 
 - [Serverspec](http://serverspec.org/)
+- [rspec-puppet](http://rspec-puppet.com/tutorial/)
 - [ChefSpec](https://docs.chef.io/chefspec.html)
 - [inspec](https://github.com/chef/inspec) 
 - [testinfra](https://testinfra.readthedocs.org/en/latest/)
