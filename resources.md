@@ -28,6 +28,10 @@ AWS
 - https://www.expeditedssl.com/aws-s3-in-plain-english
 - https://www.expeditedssl.com/aws-s3-buckets-of-objects
 
+### Generic
+
+- http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html
+
 Command line
 
 - 20 Linux System Monitoring Tools Every SysAdmin Should Know: http://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
