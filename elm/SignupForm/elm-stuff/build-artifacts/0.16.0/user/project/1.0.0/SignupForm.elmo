@@ -1,0 +1,77 @@
+Elm.SignupForm = Elm.SignupForm || {};
+Elm.SignupForm.make = function (_elm) {
+   "use strict";
+   _elm.SignupForm = _elm.SignupForm || {};
+   if (_elm.SignupForm.values) return _elm.SignupForm.values;
+   var _U = Elm.Native.Utils.make(_elm),
+   $Basics = Elm.Basics.make(_elm),
+   $Debug = Elm.Debug.make(_elm),
+   $Effects = Elm.Effects.make(_elm),
+   $Html = Elm.Html.make(_elm),
+   $Html$Attributes = Elm.Html.Attributes.make(_elm),
+   $Html$Events = Elm.Html.Events.make(_elm),
+   $List = Elm.List.make(_elm),
+   $Maybe = Elm.Maybe.make(_elm),
+   $Result = Elm.Result.make(_elm),
+   $Signal = Elm.Signal.make(_elm),
+   $StartApp = Elm.StartApp.make(_elm);
+   var _op = {};
+   var initialErrors = {username: "",password: ""};
+   var initialModel = {username: "",password: "",errors: initialErrors};
+   var getErrors = function (model) {
+      return {username: _U.eq(model.username,"") ? "Please enter a username" : "",password: _U.eq(model.password,"") ? "Please enter a password" : ""};
+   };
+   var update = F2(function (action,model) {
+      return _U.eq(action.actionType,"VALIDATE") ? {ctor: "_Tuple2"
+                                                   ,_0: _U.update(model,{errors: getErrors(model)})
+                                                   ,_1: $Effects.none} : _U.eq(action.actionType,"SET_USERNAME") ? {ctor: "_Tuple2"
+                                                                                                                   ,_0: _U.update(model,
+                                                                                                                   {username: action.payload})
+                                                                                                                   ,_1: $Effects.none} : _U.eq(action.actionType,
+      "SET_PASSWORD") ? {ctor: "_Tuple2",_0: _U.update(model,{password: action.payload}),_1: $Effects.none} : {ctor: "_Tuple2",_0: model,_1: $Effects.none};
+   });
+   var view = F2(function (actionDispatcher,model) {
+      return A2($Html.form,
+      _U.list([$Html$Attributes.id("signup-form")]),
+      _U.list([A2($Html.h1,_U.list([]),_U.list([$Html.text("Sensational Signup Form")]))
+              ,A2($Html.label,_U.list([$Html$Attributes.$for("username-field")]),_U.list([$Html.text("username: ")]))
+              ,A2($Html.input,
+              _U.list([$Html$Attributes.id("username-field")
+                      ,$Html$Attributes.type$("text")
+                      ,$Html$Attributes.value(model.username)
+                      ,A3($Html$Events.on,
+                      "input",
+                      $Html$Events.targetValue,
+                      function (str) {
+                         return A2($Signal.message,actionDispatcher,{actionType: "SET_USERNAME",payload: str});
+                      })]),
+              _U.list([]))
+              ,A2($Html.div,_U.list([$Html$Attributes.$class("validation-error")]),_U.list([$Html.text(model.errors.username)]))
+              ,A2($Html.label,_U.list([$Html$Attributes.$for("password")]),_U.list([$Html.text("password: ")]))
+              ,A2($Html.input,
+              _U.list([$Html$Attributes.id("password-field")
+                      ,$Html$Attributes.type$("text")
+                      ,$Html$Attributes.value(model.password)
+                      ,A3($Html$Events.on,
+                      "input",
+                      $Html$Events.targetValue,
+                      function (str) {
+                         return A2($Signal.message,actionDispatcher,{actionType: "SET_PASSWORD",payload: str});
+                      })]),
+              _U.list([]))
+              ,A2($Html.div,_U.list([$Html$Attributes.$class("validation-error")]),_U.list([$Html.text(model.errors.password)]))
+              ,A2($Html.div,
+              _U.list([$Html$Attributes.$class("signup-button"),A2($Html$Events.onClick,actionDispatcher,{actionType: "VALIDATE",payload: ""})]),
+              _U.list([$Html.text("Sign Up!")]))]));
+   });
+   var app = $StartApp.start({init: {ctor: "_Tuple2",_0: initialModel,_1: $Effects.none},update: update,view: view,inputs: _U.list([])});
+   var main = app.html;
+   return _elm.SignupForm.values = {_op: _op
+                                   ,view: view
+                                   ,getErrors: getErrors
+                                   ,update: update
+                                   ,initialModel: initialModel
+                                   ,initialErrors: initialErrors
+                                   ,app: app
+                                   ,main: main};
+};
