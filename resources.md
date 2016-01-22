@@ -43,6 +43,7 @@ Command line
 Databases
 
 - Readings in Database Systems: http://www.redbook.io/
+- http://tech.noredink.com/post/133347435578/optimizing-mysql-for-high-concurrency-on-amazon
 
 
 Elastic Search and others
