@@ -357,6 +357,7 @@ Python
 - pipreqs: https://github.com/bndr/pipreqs
 - https://github.com/Damnever/pigar
 - https://github.com/DenisCarriere/geocoder
+- https://julien.danjou.info/blog/2015/python-retrying
 
 Rust
 
