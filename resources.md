@@ -223,14 +223,15 @@ Infrastructure testing
 
 C
 
-- Golang style concurrency: https://github.com/sustrik/libmill
+- libmill: https://github.com/sustrik/libmill
 - Build Your Own Lisp: 
 http://www.buildyourownlisp.com
 - hwloc: https://github.com/open-mpi/hwloc
-- http://libcello.org/
-- http://nanomsg.org/documentation.html
+- libcello: http://libcello.org/
+- nanomsg: http://nanomsg.org/documentation.html
 - tcpmux: https://github.com/sustrik/tcpmux
 - zeromq: http://zeromq.org/
+- cwrap: https://lwn.net/Articles/594863/, https://cwrap.org/
 
 Clojure
 
