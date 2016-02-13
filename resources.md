@@ -227,6 +227,10 @@ C
 - Build Your Own Lisp: 
 http://www.buildyourownlisp.com
 - hwloc: https://github.com/open-mpi/hwloc
+- http://libcello.org/
+- http://nanomsg.org/documentation.html
+- tcpmux: https://github.com/sustrik/tcpmux
+- zeromq: http://zeromq.org/
 
 Clojure
 
