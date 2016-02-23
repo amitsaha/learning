@@ -119,3 +119,20 @@ List of MySQL user accounts: ``SELECT User FROM mysql.user;``
 
 
 Learned about the N+1 selects "problem" in ORMs from http://openmymind.net/scaling-viki/. Here is a stack overflow question/answer: http://stackoverflow.com/questions/97197/what-is-the-n1-selects-issue and learned that SQLAlchemy (Python ORM) addresses this (http://www.sqlalchemy.org/features.html)
+
+
+*Problem: Find duplicate files in the file system*
+
+First solution:
+
+0. Initialize a hash table
+1. Read each file, calculate a hash value
+2. Does the hash value exist in the hash table? If yes, you have a duplicate, else
+3. Put it in the hash table as key, with the value being the file name
+4. Repeat
+
+Second solution:
+
+Instead of reading entire files, use a "finger printing based technique". Percpetual hashing seems to be very popular for images and multimedia files. For text files, use something like simhash.
+
+
