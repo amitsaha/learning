@@ -139,3 +139,6 @@ Instead of reading entire files, use a "finger printing based technique". Percpe
 Nice paper from Akamai: http://www.sigcomm.org/sites/default/files/ccr/papers/2015/July/0000000-0000009.pdf . One of the things they discuss is how they use bloom filters to not cache objects which will be accessed only once.
 
 
+You can pass options such as  "--since 1 week ago" to git log to see logs since 1 week and such.
+
+
