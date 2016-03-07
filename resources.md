@@ -371,6 +371,7 @@ Python
 - https://github.com/DenisCarriere/geocoder
 - https://julien.danjou.info/blog/2015/python-retrying
 - Flask + Swagger: https://github.com/rochacbruno/flasgger
+- Microservices framework: http://nameko.readthedocs.org/en/stable/#
 
 Rust
 
