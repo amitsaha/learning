@@ -142,3 +142,4 @@ Nice paper from Akamai: http://www.sigcomm.org/sites/default/files/ccr/papers/20
 You can pass options such as  "--since 1 week ago" to git log to see logs since 1 week and such.
 
 
+Learned about Linux task stats: https://www.kernel.org/doc/Documentation/accounting/taskstats.txt
