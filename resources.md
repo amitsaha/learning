@@ -239,6 +239,7 @@ http://www.buildyourownlisp.com
 - cwrap: https://lwn.net/Articles/594863/, https://cwrap.org/
 - Making robust software: http://www.verticalsysadmin.com/making_robust_software/
 - https://www.iar.com/support/resources/articles/advanced-preprocessor-tips-and-tricks/
+- Modern C: http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf
 
 Clojure
 
