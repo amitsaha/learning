@@ -135,7 +135,8 @@ Miscellaneous
 - The magic of consistent hashing: http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html
 - Deploying GitHub pages via TravisCI: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 - Basic Infrastructure Patterns: http://www.scriptcrafty.com/basic-infrastructure-patterns/
-
+- What's in a build tool? http://www.lihaoyi.com/post/WhatsinaBuildTool.html
+- How to deploy software? https://zachholman.com/posts/deploying-software
 
 
 Jenkins
@@ -235,6 +236,8 @@ http://www.buildyourownlisp.com
 - tcpmux: https://github.com/sustrik/tcpmux
 - zeromq: http://zeromq.org/
 - cwrap: https://lwn.net/Articles/594863/, https://cwrap.org/
+- Making robust software: http://www.verticalsysadmin.com/making_robust_software/
+- https://www.iar.com/support/resources/articles/advanced-preprocessor-tips-and-tricks/
 
 Clojure
 
@@ -372,6 +375,7 @@ Rust
 
 - [Why Rust?](http://www.oreilly.com/programming/free/why-rust.csp)
 - [The Rust Programming Language Book](https://doc.rust-lang.org/nightly/book/)
+- [On Rust's memory management](http://blog.zgtm.de/1)
 
 Scala
 
