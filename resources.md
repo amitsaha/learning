@@ -366,11 +366,11 @@ Python
 - Folium: https://github.com/python-visualization/folium
 - TinyDb: http://tinydb.readthedocs.org/en/latest/getting-started.html
 - Profiling Python in production: https://nylas.com/blog/performance
-- https://github.com/jonathanslenders/python-prompt-toolkit
 - pipreqs: https://github.com/bndr/pipreqs
 - https://github.com/Damnever/pigar
 - https://github.com/DenisCarriere/geocoder
 - https://julien.danjou.info/blog/2015/python-retrying
+- Flask + Swagger: https://github.com/rochacbruno/flasgger
 
 Rust
 
