@@ -137,6 +137,7 @@ Miscellaneous
 - Basic Infrastructure Patterns: http://www.scriptcrafty.com/basic-infrastructure-patterns/
 - What's in a build tool? http://www.lihaoyi.com/post/WhatsinaBuildTool.html
 - How to deploy software? https://zachholman.com/posts/deploying-software
+- Linux task stats: https://www.kernel.org/doc/Documentation/accounting/taskstats.txt
 
 
 Jenkins
