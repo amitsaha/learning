@@ -1,0 +1,6 @@
+[package]
+name = "tee"
+version = "0.1.0"
+authors = ["Amit Saha <asaha@freelancer.com>"]
+
+[dependencies]
