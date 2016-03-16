@@ -6,12 +6,13 @@
 #include <unistd.h>
 #include <libmill.h>
 #include <string.h>
+#include "hashids.h"
 
 coroutine void serve(tcpsock as) {
 
     int64_t deadline = now() + 10000;
     char inbuf[256];
-    char outbuf[256];
+    char outbuf[512];
 
     char *response;
     int resp_nbytes;
@@ -41,10 +42,21 @@ coroutine void serve(tcpsock as) {
       response = "Method not supported\r\n";
       resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
     } else {
-      response = "Hello, there\r\n";
+      struct hashids_t *hashids;
+      unsigned int bytes_encoded;
+      char hash[512];
+      unsigned long long numbers[] = {1ull};
+
+      hashids = hashids_init3("this is my salt", 0, HASHIDS_DEFAULT_ALPHABET);
+      bytes_encoded = hashids_encode(hashids, hash, sizeof(numbers) / sizeof(unsigned long long), numbers);
+      //response = "Hello, there\r\n";
+      response = (char*) malloc(bytes_encoded);
+      strncpy(response, hash, bytes_encoded);
+      response[bytes_encoded] = '\r';
+      response[bytes_encoded+1] = '\n';
       resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
     }
-
+    printf("%d, %s", resp_nbytes, outbuf);
     sz = tcpsend(as, outbuf, resp_nbytes, deadline);
     if(errno != 0)
         goto cleanup;
@@ -78,4 +90,5 @@ int main(int argc, char *argv[]) {
         go(serve(as));
     }
 }
+
 
