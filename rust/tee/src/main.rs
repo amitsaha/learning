@@ -5,8 +5,19 @@ use std::env;
 
 fn main() {
     let mut files = Vec::new();
-    let args: Vec<String> = env::args().collect();
 
+    // The first file we want to write to is stdout
+    match File::create("/dev/stdout") {
+        Ok(f) => {
+            files.push(f);
+        }
+        Err(error) => {
+            println!("Error when creating file for writing: {}", error);
+        }
+    }
+
+    // Process any additional files specified
+    let args: Vec<String> = env::args().collect();
     if args.len() > 1 {
         for file_name in args {
             match File::create(file_name) {
@@ -19,6 +30,8 @@ fn main() {
             }
         }
     }
+
+    // Read from standard input and write to all the files
     let mut line = String::new();
     loop {
         match io::stdin().read_line(&mut line) {
@@ -27,9 +40,6 @@ fn main() {
                 if n == 0 {
                     break;
                 }
-                // Print to stdout
-                print!("{}", line);
-                // print to the file specified
                 for f in &mut files{
                     match f.write(line.as_bytes()) {
                         Ok(_) => {}
