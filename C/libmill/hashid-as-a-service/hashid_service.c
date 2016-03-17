@@ -8,6 +8,8 @@
 #include <string.h>
 #include "hashids.h"
 
+char *http_response_header = "HTTP/1.1 200 OK\r\n\r\n";
+
 coroutine void serve(tcpsock as) {
 
     int64_t deadline = now() + 10000;
@@ -45,18 +47,17 @@ coroutine void serve(tcpsock as) {
       struct hashids_t *hashids;
       unsigned int bytes_encoded;
       char hash[512];
-      unsigned long long numbers[] = {1ull};
+      unsigned long long numbers[] = {2};
 
-      hashids = hashids_init3("this is my salt", 0, HASHIDS_DEFAULT_ALPHABET);
+      hashids = hashids_init3("this is my salt", 6, HASHIDS_DEFAULT_ALPHABET);
       bytes_encoded = hashids_encode(hashids, hash, sizeof(numbers) / sizeof(unsigned long long), numbers);
-      //response = "Hello, there\r\n";
-      response = (char*) malloc(bytes_encoded);
-      strncpy(response, hash, bytes_encoded);
-      response[bytes_encoded] = '\r';
-      response[bytes_encoded+1] = '\n';
+
+      // Build the response
+      response = (char*) malloc(resp_nbytes);
+      strncpy(response, http_response_header, strlen(http_response_header));
+      strncat(response, hash, bytes_encoded+3);
       resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
     }
-    printf("%d, %s", resp_nbytes, outbuf);
     sz = tcpsend(as, outbuf, resp_nbytes, deadline);
     if(errno != 0)
         goto cleanup;
