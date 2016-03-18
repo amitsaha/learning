@@ -8,56 +8,80 @@
 #include <string.h>
 #include "hashids.h"
 
-char *http_response_header = "HTTP/1.1 200 OK\r\n\r\n";
+char *http_response_header_template = "HTTP/1.1 %d OK\r\n\r\n";
+
+void build_http_response(int status, char *message, char *response) {
+  
+}
 
 coroutine void serve(tcpsock as) {
 
     int64_t deadline = now() + 10000;
+
+    /* Request and response */
     char inbuf[256];
     char outbuf[512];
-
-    char *response;
+    char response[512];
     int resp_nbytes;
+    int resource_to_fetch_pos;
+
+    /* hashids.c */
+    struct hashids_t *hashids;
+    unsigned int bytes_encoded;
+    char hash[512];
+    unsigned long long integer_to_encode=0;
+    hashids = hashids_init3("this is my salt", 6, HASHIDS_DEFAULT_ALPHABET);
 
     /* Recieve data until either the buffer is full or \r is encountered */
     size_t sz = tcprecvuntil(as, inbuf, sizeof(inbuf), "\r", 1, deadline);
     if(errno != 0)
         goto cleanup;
     inbuf[sz - 1] = 0;
+    printf("Serving request %s\n", inbuf);
 
     /* Parse the incoming request  (Example: GET /index.html HTTP/1.1)*/
 
     // First find if we support the HTTP method requested
     char http_method[5];
     int pos;
-    for(pos=0; pos < sz; pos++) {
-      if (inbuf[pos] == ' ') {
-        break;
-      } else {
-        // We can do better
+    for(pos=0; inbuf[pos] != ' '; pos++) {
         http_method[pos] = inbuf[pos];
-      }
     }
     http_method[pos] = 0;
 
     if (strcmp(http_method, "GET") != 0) {
-      response = "Method not supported\r\n";
+      char *message = "Only GET supported\r\n";
+      memset(response, 0, sizeof(response));
+      strncpy(response, message, strlen(message));
       resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
     } else {
-      struct hashids_t *hashids;
-      unsigned int bytes_encoded;
-      char hash[512];
-      unsigned long long numbers[] = {2};
+      /* Get the ID to generate a hashID for*/
+      char resource[10];
+      int index=0;
+      resource_to_fetch_pos = pos+2;
+      for(pos=resource_to_fetch_pos; pos < 10 && inbuf[pos] != ' '; pos++) {
+        resource[index++] = inbuf[pos];
+      }
 
-      hashids = hashids_init3("this is my salt", 6, HASHIDS_DEFAULT_ALPHABET);
-      bytes_encoded = hashids_encode(hashids, hash, sizeof(numbers) / sizeof(unsigned long long), numbers);
+      char *endptr;
+      integer_to_encode = strtoull(resource, &endptr, 0);
+      if (*endptr != '\0') {
+        char *message = "I can only generate hashids for integers\r\n";
 
-      // Build the response
-      response = (char*) malloc(resp_nbytes);
-      strncpy(response, http_response_header, strlen(http_response_header));
-      strncat(response, hash, bytes_encoded+3);
-      resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
+        memset(response, 0, sizeof(response));
+        strncpy(response, message, strlen(message));
+        resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
+      } else {
+        bytes_encoded = hashids_encode_one(hashids, hash, integer_to_encode);
+        // Build the response
+        // zero out response
+        memset(response, 0, sizeof(response));
+        strncpy(response, http_response_header, strlen(http_response_header));
+        strncat(response, hash, bytes_encoded);
+        resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
+      }
     }
+
     sz = tcpsend(as, outbuf, resp_nbytes, deadline);
     if(errno != 0)
         goto cleanup;
@@ -70,6 +94,8 @@ coroutine void serve(tcpsock as) {
     strerror(errno);
 
     tcpclose(as);
+
+    return;
 }
 
 int main(int argc, char *argv[]) {
@@ -81,15 +107,15 @@ int main(int argc, char *argv[]) {
         perror("Can't open listening socket");
         return 1;
     }
-
     printf("Listening for HTTP connections on port %d\n", port);
-
     while(1) {
         tcpsock as = tcpaccept(ls, -1);
         if(!as)
             continue;
         go(serve(as));
     }
+
+    return 0;
 }
 
 
