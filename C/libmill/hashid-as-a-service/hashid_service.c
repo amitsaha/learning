@@ -8,10 +8,16 @@
 #include <string.h>
 #include "hashids.h"
 
-char *http_response_header_template = "HTTP/1.1 %d OK\r\n\r\n";
+char *http_response_template =
+  "HTTP/1.1 %d OK\r\n\r\n"
+  "%s\n";
 
-void build_http_response(int status, char *message, char *response) {
-  
+size_t build_http_response(int status_code,
+                           char *message,
+                           char *response_buffer,
+                           size_t response_size) {
+  memset(response_buffer, 0, response_size);
+  return snprintf(response_buffer, response_size, http_response_template, status_code, message);
 }
 
 coroutine void serve(tcpsock as) {
@@ -50,11 +56,13 @@ coroutine void serve(tcpsock as) {
     http_method[pos] = 0;
 
     if (strcmp(http_method, "GET") != 0) {
+
       char *message = "Only GET supported\r\n";
-      memset(response, 0, sizeof(response));
-      strncpy(response, message, strlen(message));
+      build_http_response(400, message, response, sizeof(response));
       resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
+
     } else {
+
       /* Get the ID to generate a hashID for*/
       char resource[10];
       int index=0;
@@ -67,17 +75,11 @@ coroutine void serve(tcpsock as) {
       integer_to_encode = strtoull(resource, &endptr, 0);
       if (*endptr != '\0') {
         char *message = "I can only generate hashids for integers\r\n";
-
-        memset(response, 0, sizeof(response));
-        strncpy(response, message, strlen(message));
+        build_http_response(400, message, response, sizeof(response));
         resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
       } else {
         bytes_encoded = hashids_encode_one(hashids, hash, integer_to_encode);
-        // Build the response
-        // zero out response
-        memset(response, 0, sizeof(response));
-        strncpy(response, http_response_header, strlen(http_response_header));
-        strncat(response, hash, bytes_encoded);
+        build_http_response(200, hash, response, sizeof(response));
         resp_nbytes = snprintf(outbuf, sizeof(outbuf), "%s", response);
       }
     }
