@@ -53,7 +53,7 @@ fn main() {
                 line.clear();
             }
             Err(error) => {
-                println!("error : {}", error);
+                println!("Error reading from stdin : {}", error);
             }
         }
     }
