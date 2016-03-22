@@ -16,17 +16,14 @@ fn main() {
         }
     }
 
-    // Process any additional files specified
-    let args: Vec<String> = env::args().collect();
-    if args.len() > 1 {
-        for file_name in args {
-            match File::create(file_name) {
-                Ok(f) => {
-                    files.push(f);
-                }
-                Err(error) => {
-                    println!("Error when creating file for writing: {}", error);
-                }
+    // Create any additional files specified
+    for file_name in env::args() {
+        match File::create(file_name) {
+            Ok(f) => {
+                files.push(f);
+            }
+            Err(error) => {
+                println!("Error when creating file for writing: {}", error);
             }
         }
     }
