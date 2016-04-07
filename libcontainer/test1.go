@@ -1,13 +1,16 @@
-package main
+import (
+	"github.com/opencontainers/runc/libcontainer/configs"
+	"os"
+)
 
 func main() {
-
-	rootfs, err := newRootfs()
-	ok(t, err)
-	defer remove(rootfs)
+	// The first argument is expected to be the path
+	// to the root FS directory
+	rootfs = os.Args[1]
+	//defer remove(rootfs)
 
 	// Execute a long-running container
-	container1, err := newContainer(newTemplateConfig(rootfs))
+	container1, err := newContainer(rootfs)
 	ok(t, err)
 	defer container1.Destroy()
 
