@@ -300,6 +300,7 @@ https://golang.org/doc/effective_go.html
 - Golang microservies library from new york times:https://github.com/nytimes/gizmo
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 - Structured logging: https://github.com/apex/log
+- Structured logging: https://github.com/Sirupsen/logrus
 
 
 JavaScript
