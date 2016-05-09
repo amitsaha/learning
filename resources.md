@@ -15,6 +15,10 @@ Ansible
 
 AWS
 
+### Deployments
+
+- https://www.thoughtworks.com/insights/blog/implementing-blue-green-deployments-aws
+
 ### Tools
 
 - https://github.com/awslabs/aws-shell
