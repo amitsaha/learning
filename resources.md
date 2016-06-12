@@ -305,6 +305,7 @@ https://golang.org/doc/effective_go.html
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 - Structured logging: https://github.com/apex/log
 - Structured logging: https://github.com/Sirupsen/logrus
+- JSON + Go: http://elliot.land/working-with-json-in-go?utm_source=golangweekly&utm_medium=email
 
 
 JavaScript
