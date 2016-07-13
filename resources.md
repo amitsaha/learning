@@ -406,15 +406,7 @@ Swift language
 -  PROBABILISTIC DATA STRUCTURES FOR WEB ANALYTICS AND DATA MINING: https://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/
 -  Pattern: https://github.com/clips/pattern
 -  Neural networks and Deep learning: http://neuralnetworksanddeeplearning.com/
+-  A course in machine learning: http://ciml.info/
 
 
-### Talks
 
-Concurrency is not Parallellism: http://blog.golang.org/concurrency-is-not-parallelism
-
-- World is not object oriented, it's parallel
-- Concurrency: composition of independently executing things, managing a lot of stuff going on together, interacting
-- Parallel: simultaneous execution of things, related or not, doing things in parallel
-- Concurrency: structure, parallelism: execution
-- Concurrency: structure a thing, may be you can parallelize, goal is not parallelism (3:00)
-- Concurrency: structure a program into pieces and communicate between them
