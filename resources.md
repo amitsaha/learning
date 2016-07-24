@@ -48,6 +48,7 @@ Databases
 
 - Readings in Database Systems: http://www.redbook.io/
 - http://tech.noredink.com/post/133347435578/optimizing-mysql-for-high-concurrency-on-amazon
+- A beginners guide to SQL: http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
 
 
 Elastic Search and others
