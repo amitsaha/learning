@@ -143,3 +143,6 @@ You can pass options such as  "--since 1 week ago" to git log to see logs since 
 
 
 Learned about Linux task stats: https://www.kernel.org/doc/Documentation/accounting/taskstats.txt
+
+
+Use ```netstat -nputwc`` to show a continuously  updating network connections on Linux
