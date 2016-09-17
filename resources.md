@@ -246,6 +246,7 @@ http://www.buildyourownlisp.com
 - Making robust software: http://www.verticalsysadmin.com/making_robust_software/
 - https://www.iar.com/support/resources/articles/advanced-preprocessor-tips-and-tricks/
 - Modern C: http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf
+- libsigsegv: https://www.gnu.org/software/libsigsegv/
 
 Clojure
 
