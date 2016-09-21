@@ -143,6 +143,7 @@ Miscellaneous
 - What's in a build tool? http://www.lihaoyi.com/post/WhatsinaBuildTool.html
 - How to deploy software? https://zachholman.com/posts/deploying-software
 - Linux task stats: https://www.kernel.org/doc/Documentation/accounting/taskstats.txt
+- Logging: https://sematext.com/blog/2016/09/13/logstash-alternatives/
 
 
 Jenkins
@@ -219,6 +220,7 @@ Task queues
 - thrift-tools: Inspecting thrift traffic - https://github.com/pinterest/thrift-tools
 - Python implementation of thrift: https://github.com/eleme/thriftpy
 - zerorpc: http://www.zerorpc.io/
+- gRPC: http://www.grpc.io/
 
 ### GraphQL
 
