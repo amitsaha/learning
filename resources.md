@@ -73,6 +73,7 @@ Elastic Search and others
 Consul (Service discovery, DNS, Load balancing)
 
 - http://www.consul.io/intro/
+- Tuning haproxy: https://blog.codeship.com/performance-tuning-haproxy/?utm_source=webopsweekly&utm_medium=email
 
 Git
 
