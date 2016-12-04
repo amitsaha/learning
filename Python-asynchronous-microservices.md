@@ -8,9 +8,11 @@
 - [Event driven framework for Python](https://github.com/quantmind/pulsar)
 - [lux - asynchronous web toolkit](https://github.com/quantmind/lux)
 - [klien - Twisted based web micro frameowrk](http://klein.readthedocs.io/en/latest/index.html)
+  - [Going asynchronous - From Flask to twisted klein](http://tavendo.com/blog/post/going-asynchronous-from-flask-to-twisted-klein/)
 - [curio - Taskqueue based async programming](http://curio.readthedocs.io/en/latest/index.html)
 - [Tornado](http://www.tornadoweb.org/en/stable/guide.html)
-
+- [bottlepy - asynchronous](https://bottlepy.org/docs/dev/async.html)
+- [Running uWSGI in async mode](http://uwsgi-docs.readthedocs.io/en/latest/Async.html#running-uwsgi-in-async-mode)
 
 # Microservices
 
