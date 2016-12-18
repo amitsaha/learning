@@ -13,6 +13,7 @@
 - [Tornado](http://www.tornadoweb.org/en/stable/guide.html)
 - [bottlepy - asynchronous](https://bottlepy.org/docs/dev/async.html)
 - [Running uWSGI in async mode](http://uwsgi-docs.readthedocs.io/en/latest/Async.html#running-uwsgi-in-async-mode)
+- [The Muffin - web framework based on asyncio](https://github.com/klen/muffin)
 
 # Microservices
 
