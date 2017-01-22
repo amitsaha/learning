@@ -10,9 +10,8 @@
 
 ### aiohttp
 
-Reference
-
 - http://aiohttp.readthedocs.io/en/stable/web.html#middlewares
+- Example middleware: http://codevoyagers.com/2016/09/01/from-flask-to-aiohttp/#whythecontext
 
 Third-party packages
 
@@ -28,12 +27,13 @@ Third-party packages
 
 - http://flask.pocoo.org/docs/0.11/patterns/deferredcallbacks/
 - Flask's `after_request()`, `before_request()` including `blueprint specific` methods
+- Example of implementing a middleware: http://steinn.org/post/flask-statsd/
 
 Third-party packages
 
 ### Miscellaneous
 
-- http://steinn.org/post/flask-statsd/
+- 
 
 ## Telemetry
 
@@ -50,7 +50,6 @@ Third-party packages
 ## Distributed Tracing
 
 ## Asynchronous Operations
-
 
 ## Circuit breaking
 
