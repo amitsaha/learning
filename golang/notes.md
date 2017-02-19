@@ -1,7 +1,7 @@
 ##Setup
 
 - See `setup_environment.bash`
-- Documentation: godoc --http=:6060
+- Documentation: `godoc --http=:6060`
 
 ##Language Features
 
@@ -26,6 +26,8 @@
 
 *Structures*
 
+A `Point` struct:
+
 ```
 // Declare a structure
 type Point struct {
@@ -33,6 +35,8 @@ type Point struct {
 	y float64
 }
 ```
+
+A function which returns a value of type `Point`:
 
 ```
 // Structure function
@@ -42,7 +46,11 @@ func (p *Point) translate(distance float64){
 }
 ```
 
-- Skipped over: Composition, Constructors
+Others:
+
+- Structure pointers - don't use *p, but use p
+- Checking for empty structure values: `if (Point{}) == p`
+
 
 *Arrays*
 
@@ -115,7 +123,7 @@ TBD
 - Use ``defer`` to defer code execution. The code is executed after a function
 returns. For example, ``defer file.Close()``.
 
-- ``go fmt`` to automatically format Go code
+- ``gofmt`` to automatically format Go code
 
 - Initialized If: if err := process(); err != nill .. The value is available
 inside ``else if`` or ``else``.
