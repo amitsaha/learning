@@ -332,6 +332,6 @@ References
 ==========
 
 - [The Little Go Book]([http://openmymind.net/The-Little-Go-Book/)
-- [Unit testing example]([http://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160])
+- [Unit testing example](http://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160)
 - [defer, panic, recover](http://blog.golang.org/defer-panic-and-recover)
-- More to come
+- [Commmon mistakes](https://github.com/golang/go/wiki/CommonMistakes)
