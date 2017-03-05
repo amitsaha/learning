@@ -6,3 +6,4 @@
 - use ``open`` to open a file/directory/URL in the default application registered to open it. To specify a different application use ``-a``. (http://superuser.com/questions/316490/access-finders-open-with-menu-from-the-commandline-for-tab-completion/316799#316799)
 - Lock from command line: http://osxdaily.com/2012/03/30/lock-mac-desktop-command-line/
 - vpn client: https://tunnelblick.net
+- iterm2 tips & tricks: http://teohm.com/blog/working-effectively-with-iterm2/
