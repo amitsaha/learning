@@ -171,6 +171,7 @@ Infrastructure testing
 - testinfra: https://testinfra.readthedocs.org/
 - A brief introduction to server testing with serverspec: https://www.debian-administration.org/article/703/A_brief_introduction_to_server-testing_with_serverspec
 - aws-spec: https://github.com/serverworks/aws-spec
+- goss: https://github.com/aelsabbahy/goss
 
 Task queues
 
