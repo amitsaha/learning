@@ -76,7 +76,7 @@ Elastic Search and others
 - Leader election: https://www.elastic.co/blog/found-leader-election-in-general
 
 
-Consul (Service discovery, DNS, Load balancing)
+Consul (Service discovery, DNS, balancing)
 
 - http://www.consul.io/intro/
 - Tuning haproxy: https://blog.codeship.com/performance-tuning-haproxy/?utm_source=webopsweekly&utm_medium=email
@@ -205,6 +205,7 @@ Task queues
 - API Gateway: https://getkong.org/about/
 - JSON decode benchmarking: http://blog.ionelmc.ro/2015/11/22/memory-use-and-speed-of-json-parsers/
 - GRPC/protobuf/swagger: https://coreos.com/blog/gRPC-protobufs-swagger.html
+- Load testing: https://serialized.net/2017/06/load-testing-with-vegeta-and-python/
 
 ### HTTP/2.0
 
