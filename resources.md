@@ -286,38 +286,14 @@ Golang
 - Effective Go: 
 https://golang.org/doc/effective_go.html
 - The Little Go Book: http://openmymind.net/The-Little-Go-Book/
-- Golang Channels Tutorial: http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
 - Working with files in Go: http://devdungeon.com/content/working-files-go
 - Testing in Go series: https://smartystreets.com/blog/tags/testing-in-go-series
-- Go Martini: https://github.com/go-martini/martini
-- An Introduction to Programming in Go: https://www.golang-book.com/books/intro
 - TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
 - Awesome go: https://github.com/avelino/awesome-go/blob/master/README.md
-- Go Books: https://github.com/dariubs/GoBooks
-- Learning Go: http://www.miek.nl/go/
 - Golang Amazon: https://github.com/mitchellh/goamz, http://stackoverflow.com/questions/22867013/golang-connecting-to-s3
-- Image cropping: https://github.com/oliamb/cutter
-- Image resizing: https://github.com/nfnt/resize
-- Image processing: https://github.com/disintegration/imaging
-- http.HandlerFunc wrapper technique: https://medium.com/@matryer/the-http-handlerfunc-wrapper-technique-in-golang-c60bf76e6124
-- Writing middleware in Golang: https://medium.com/@matryer/writing-middleware-in-golang-and-how-go-makes-it-so-much-fun-4375c1246e81#.dnwyggb80
-- expvar: http://go-wise.blogspot.com.au/2011/10/expvar.html
-- router: https://github.com/karlseguin/router
-- A whirlwind tour of Go's runtime variables: http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables
 - afero: A universal filesystem library: https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/
 - Bleve: Full text search/indexing library - http://www.blevesearch.com/
-- gorename: https://texlution.com/post/gorename/
-- vet: https://golang.org/cmd/vet/
-- goimports: https://godoc.org/golang.org/x/tools/cmd/goimports
-- golint: https://github.com/golang/lint
-- Debugging with Delve: https://blog.gopheracademy.com/advent-2015/debugging-with-delve/
-- Goa: Design based HTTP-microservice dev: http://goa.design/index.html, Untangling microservices: https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/
-- imgix Golang library:https://www.imgix.com/docs/libraries/go 
-- Golang microservies library from new york times:https://github.com/nytimes/gizmo
-- TLS with Go: https://ericchiang.github.io/tls/go/https/2015/06/21/go-tls.html
-- Structured logging: https://github.com/apex/log
-- Structured logging: https://github.com/Sirupsen/logrus
-- JSON + Go: http://elliot.land/working-with-json-in-go?utm_source=golangweekly&utm_medium=email
+- https://github.com/emluque/dscache
 
 
 JavaScript
