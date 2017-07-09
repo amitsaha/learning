@@ -23,6 +23,7 @@ AWS
 ### Tools
 
 - https://github.com/awslabs/aws-shell
+- https://github.com/Azure/draft
 
 ### Lambda
 
