@@ -19,6 +19,7 @@ AWS
 
 - https://www.thoughtworks.com/insights/blog/implementing-blue-green-deployments-aws
 
+
 ### Tools
 
 - https://github.com/awslabs/aws-shell
@@ -26,6 +27,10 @@ AWS
 ### Lambda
 
 - https://www.expeditedssl.com/aws-lambda-in-plain-english
+
+### IAM roles/policies
+
+- https://medium.com/netflix-techblog/introducing-aardvark-and-repokid-53b081bf3a7e
 
 ### S3
 
