@@ -241,6 +241,10 @@ Task queues
 - Basic API with GraphQL: http://davidandsuzi.com/writing-a-basic-api-with-graphql/
 - GraphQL schema and server wrapping: https://github.com/graphql/swapi-graphql
 
+### Microservices architecture
+
+- https://azure.microsoft.com/en-us/blog/design-patterns-for-microservices/
+
 ## Programming Languages
 
 C
