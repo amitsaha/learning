@@ -245,6 +245,10 @@ Task queues
 
 - https://azure.microsoft.com/en-us/blog/design-patterns-for-microservices/
 
+### Network programming
+
+- https://blog.cloudflare.com/how-to-receive-a-million-packets/
+
 ## Programming Languages
 
 C
