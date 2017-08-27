@@ -1,3 +1,10 @@
+## Tips
+
+**Line search**
+
+`f<c>` to go the next occurence of `c`, `;` to repeat this search, `,` to repeat the search in backward direction
+`F<c>` to go the previous occurence of `c`, `;` to repeat this search, `,` to repeat the search in forward direction
+
 ## External Resources
 
 - [vi/vim cheat sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
