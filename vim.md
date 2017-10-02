@@ -1,13 +1,53 @@
 ## Tips
 
+**Cursor movement**
+
+- Move to the line below: `j`
+- Move the line above: `k`
+- Move to the character on the right: `l`
+- Move to the character on the left: `h`
+- Move forward to the start of the next word: `w`
+- Move forward to the end of the next word: `e`
+- Move backward to the start of the previous word: `b`
+- Jump to the beginning of a line: `0`
+- Jump the end of a line: `$`
+
+
 **Line search**
 
 `f<c>` to go the next occurence of `c`, `;` to repeat this search, `,` to repeat the search in backward direction
 `F<c>` to go the previous occurence of `c`, `;` to repeat this search, `,` to repeat the search in forward direction
 
+**Changing a word at n positions**
+
+- Search for the word
+- `cgn` - change it
+- Press the `.` key to change the next, `n` to skip it
+
+**Recording and saving macros**
+
+**Switch case**
+
+- Select the character, word
+- Press `~`.
+
+**Replace character**
+
+- Select
+- `Shift+R`
+
+**Move block of text**
+
+- Left: `<<`
+- Right: `>>`
+
+
 ## External Resources
 
 - [vi/vim cheat sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
+- [vim cheat sheet](https://vim.rtorr.com/)
 - [Search and Replace](http://vim.wikia.com/wiki/Search_and_replace)
 - [Visual block mode](http://vimcasts.org/transcripts/22/en/)
 - [Habit breaking, Habit Making](http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/)
+- [You don’t need more than one cursor in vim
+](https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db)
