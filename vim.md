@@ -9,6 +9,7 @@
 - Move forward to the start of the next word: `w`
 - Move forward to the end of the next word: `e`
 - Move backward to the start of the previous word: `b`
+- Move backward to the end of the previous word: `ge`
 - Jump to the beginning of a line: `0`
 - Jump the end of a line: `$`
 
