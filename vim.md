@@ -27,7 +27,7 @@
 **Recording and playing macros**
 
 - Start macro recording: `q<key>` where key is the register you want to store the macro in
-- <perform actions>
+- `<perform actions>`. One point to note here is to make your steps so that you start from the beginning of a line.
 - Press `q` to save
 - To apply the macro on a line: `@<key>`
 - To apply the macro to a selection:
