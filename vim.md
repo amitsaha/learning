@@ -51,9 +51,24 @@
 - Left: `<<`
 - Right: `>>`
 
+**Delete**
+
+- Delete till a character on the current line: `dt<character>` 
+- Delete current word: `diw`
+- Delete text between quotes: `di"`
+
+**Miscellaneous movements**
+
+- `zz` to center the current line to the center
+- `G` to go the last line of the document
+- `gg` to go the first line of the document
+- `H` to move to the top of the screen
+- `M` to move to the middle of the screen
+- `L` to move to the bottom of the screen
 
 ## External Resources
 
+- [vim tips and tricks](https://www.rosehosting.com/blog/vim-tips-and-tricks/)
 - [vi/vim cheat sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 - [vim cheat sheet](https://vim.rtorr.com/)
 - [Search and Replace](http://vim.wikia.com/wiki/Search_and_replace)
