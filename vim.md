@@ -24,7 +24,16 @@
 - `cgn` - change it
 - Press the `.` key to change the next, `n` to skip it
 
-**Recording and saving macros**
+**Recording and playing macros**
+
+- Start macro recording: `q<key>` where key is the register you want to store the macro in
+- <perform actions>
+- Press `q` to save
+- To apply the macro on a line: `@<key>`
+- To apply the macro to a selection:
+  - Visually select the area
+  - `:'<,'> normal @<key>`
+
 
 **Switch case**
 
