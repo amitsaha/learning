@@ -56,6 +56,7 @@
 - Delete till a character on the current line: `dt<character>` 
 - Delete current word: `diw`
 - Delete text between quotes: `di"`
+- Delete all the contents: `gg` to go to the beginning + `dG`
 
 **Miscellaneous movements**
 
