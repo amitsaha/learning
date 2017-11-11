@@ -266,6 +266,7 @@ http://www.buildyourownlisp.com
 - https://www.iar.com/support/resources/articles/advanced-preprocessor-tips-and-tricks/
 - Modern C: http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf
 - libsigsegv: https://www.gnu.org/software/libsigsegv/
+- [Structure packing in C](http://www.catb.org/esr/structure-packing/)
 
 Clojure
 
