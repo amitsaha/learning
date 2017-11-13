@@ -36,6 +36,12 @@
   - `:'<,'> normal @<key>`
 
 
+**Swap two characters**
+
+- Place cursor on the first character
+- `xp` 
+- Learn more: https://stackoverflow.com/questions/1529414/vim-how-do-i-swap-two-characters
+
 **Switch case**
 
 - Select the character, word
