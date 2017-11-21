@@ -79,6 +79,8 @@
 - Delete current word: `diw`
 - Delete text between quotes: `di"`
 - Delete all the contents: `gg` to go to the beginning + `dG`
+- Delete from current position to the end of line: `d$`
+- Delete entire file contents: `:%d`
 
 **Miscellaneous movements**
 
