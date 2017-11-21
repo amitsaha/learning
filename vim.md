@@ -1,5 +1,13 @@
 ## Tips
 
+**vim opening commands**
+
+- `+NUM`: File will be opened and cursor positioned on line, NUM
+- `+/{pattern}`: File will be opened and cursor positioned on first occurence of `pattern`
+- `+"NUMd|x"` : Delete a specific line from the file
+
+
+
 **Cursor movement**
 
 - Move to the line below: `j`
@@ -18,6 +26,14 @@
 
 `f<c>` to go the next occurence of `c`, `;` to repeat this search, `,` to repeat the search in backward direction
 `F<c>` to go the previous occurence of `c`, `;` to repeat this search, `,` to repeat the search in forward direction
+
+**Replacing a word in a block**
+
+- Go the beginning of a word in the block
+- Press `Ctrl+v`, select the word
+- Select all the words using down arrow
+- `c`, type in the new word, `esc`
+
 
 **Changing a word at n positions**
 
