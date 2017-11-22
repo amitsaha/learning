@@ -35,6 +35,8 @@ when you do a `git commit --amend`, you are creating a new commit with a new SHA
 
 To upload a file simulating form upload via `httpie`, `http -f POST example.com/jobs name='John Smith' cv@~/Documents/cv.pdf`
 
+Learned about [X-Forwarded-Proto](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-Proto) header. With curl use: `curl -H "X-Forwarded-Proto: https" ..`
+
 
 `MultiDict`: http://werkzeug.pocoo.org/docs/0.10/datastructures/#werkzeug.datastructures.MultiDict
 
