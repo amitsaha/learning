@@ -147,4 +147,7 @@ You can pass options such as  "--since 1 week ago" to git log to see logs since 
 Learned about Linux task stats: https://www.kernel.org/doc/Documentation/accounting/taskstats.txt
 
 
-Use ```netstat -nputwc`` to show a continuously  updating network connections on Linux
+Use `netstat -nputwc` to show a continuously  updating network connections on Linux
+
+
+CPU steal time: http://blog.scoutapp.com/articles/2013/07/25/understanding-cpu-steal-time-when-should-you-be-worried
