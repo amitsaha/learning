@@ -1,5 +1,15 @@
 ## Tips
 
+**Modes**
+
+- Insert Normal mode: In insert mode, press `Ctrl-o` to quickly execute a command and come back to insert mode
+
+**Files**
+
+- Save current buffer as `file.txt`: `:sav file.text`
+
+
+
 **vim opening commands**
 
 - `+NUM`: File will be opened and cursor positioned on line, NUM
@@ -90,6 +100,12 @@
 - `H` to move to the top of the screen
 - `M` to move to the middle of the screen
 - `L` to move to the bottom of the screen
+- Scroll down half page: `Ctrl-d`
+- Scroll up half page: `Ctrl-u`
+- Scroll down full page: `Ctrl-f`
+- Scroll up full page: `Ctrl-b`
+- Go to line at 50% of file: `50%`
+- In Insert mode, `shift+right/left arrow` to jump forward/backward by words
 
 ## External Resources
 
