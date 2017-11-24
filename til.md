@@ -151,3 +151,6 @@ Use `netstat -nputwc` to show a continuously  updating network connections on Li
 
 
 CPU steal time: http://blog.scoutapp.com/articles/2013/07/25/understanding-cpu-steal-time-when-should-you-be-worried
+
+To sync entire directories via `aws` CLI: `aws s3 sync`
+
