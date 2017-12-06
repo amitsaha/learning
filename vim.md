@@ -6,7 +6,7 @@
 
 **Files**
 
-- Save current buffer as `file.txt`: `:sav file.text`
+- Save current buffer as `file.txt`: `:sav file.text`. If you use `:w` to write the current buffer contents into a new file, post-write, you will still be editing the current buffer
 
 
 
