@@ -92,6 +92,13 @@
 - Delete from current position to the end of line: `d$`
 - Delete entire file contents: `:%d`
 
+**Search**
+
+- `*` searches forward for the word under cursor, `#` searches backward for the word under cursor.
+- `ggn` - go to the top of the file and find next occurence
+- Search history: `/` and type `Ctrl+r`, `ctrl+w` to search in reverse and forward
+
+
 **Miscellaneous movements**
 
 - `zz` to center the current line to the center
