@@ -118,6 +118,10 @@ nginx
 - http://www.unixmen.com/install-lemp-server-nginx-mariadb-and-php-on-fedora-22/
 - https://www.digitalocean.com/community/tutorials/how-to-set-up-multiple-ssl-certificates-on-one-ip-with-nginx-on-ubuntu-12-04
 
+Redis
+
+- [Redis data types](https://redis.io/topics/data-types-intro)
+
 
 SSH
 
