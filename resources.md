@@ -1,6 +1,6 @@
-*Table of contents*
+# Table of contents
 
-- [Algorithms/Data Structures/](#algorithmsds)
+- [Algorithms/Data Structures](#algorithmsds)
 - [Infrastructure/Platform/Workflow](#infraworkflow)
 - [Web/APIs/Network Services](#webapis)
 - [Programming Languages](#programming-languages)
@@ -9,6 +9,7 @@
 
 ## Algorithms/Data Structures
 
+- [Stanford CS library](http://cslibrary.stanford.edu/)
 - [How to think in Graphs](https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401)
 - [Self organizing linked list in C++](https://medium.com/@vardanator/self-organizing-sorted-linked-list-in-c-ae24b7e0b600)
 
