@@ -1,11 +1,16 @@
 *Table of contents*
 
+- [Algorithms/Data Structures/](#algorithmsds)
 - [Infrastructure/Platform/Workflow](#infraworkflow)
 - [Web/APIs/Network Services](#webapis)
 - [Programming Languages](#programming-languages)
 - [Data Science/Optimization/Machine Learning/Evolutionary Algorithms](#data-scienceoptimizationmachine-learningevolutionary-algorithms)
 - [Talks](#talks)
 
+## Algorithms/Data Structures
+
+- [How to think in Graphs](https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401)
+- 
 
 ## Infrastructure/Platform/Workflow
 
