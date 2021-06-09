@@ -1,0 +1,17 @@
+---
+actors:
+  - ./target/wasm32-unknown-unknown/debug/playervault_s.wasm
+capabilities:
+     - image_ref: wasmcloud.azurecr.io/redis:0.11.2
+     - image_ref: wasmcloud.azurecr.io/httpserver:0.12.1
+links:
+  - actor: ${VAULT_ACTOR}
+    contract_id: "wasmcloud:keyvalue"
+    provider_id: "VAZVC4RX54J2NVCMCW7BPCAHGGG5XZXDBXFUMDUXGESTMQEJLC3YVZWB"
+    values:
+      URL: redis://0.0.0.0:6379/
+  - actor: ${VAULT_ACTOR}
+    contract_id: "wasmcloud:httpserver"
+    provider_id: "VAG3QITQQ2ODAOWB5TTQSDJ53XK3SHBEIFNK4AYJ5RKAX2UNSCAPHA5M"
+    values:
+      PORT: 8080
