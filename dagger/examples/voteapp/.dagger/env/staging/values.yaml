@@ -1,0 +1,55 @@
+name: staging
+inputs:
+    infra.awsConfig.accessKey:
+        secret: ENC[AES256_GCM,data:9ZBGTIXQJ1PsCjoRUrsCKzaBT8Y=,iv:kVLb+xXVvX5FXxk1FLkn2gdDTSfAjnx4K8GMmnUIBGA=,tag:au9sg5s26/MMT8QT/J5RKQ==,type:str]
+    infra.awsConfig.region:
+        text: us-east-1
+    infra.awsConfig.secretKey:
+        secret: ENC[AES256_GCM,data:Z3eBPHbFTePb/d/EO1PpSw5uvmMpPyWUrdf3W0yvnxTMvEzc+RT5FQ==,iv:2c8bXgUVU8n61655n6N+fEfnj6gZUalGVPHtXDlRQlA=,tag:LNucKRiJYyRcLUJ/6xn83Q==,type:str]
+    infra.ecrRepository:
+        text: 125635003186.dkr.ecr.us-east-1.amazonaws.com/apps
+    infra.ecsClusterName:
+        text: bl-ecs-acme-764-ECSCluster-lRIVVg09G4HX
+    infra.elbListenerArn:
+        text: arn:aws:elasticloadbalancing:us-east-1:125635003186:listener/app/bl-ec-ECSAL-OSYI03K07BCO/3c2d3e97468bde5b/d02ac91cc007e34e
+    infra.gcpConfig.project:
+        text: dagger-ci
+    infra.gcpConfig.region:
+        text: us-west2-a
+    infra.gcpConfig.serviceKey:
+        secret: ENC[AES256_GCM,data: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,iv:DMBQhzoUPpox9e9p2vcvaoMO5kyafiO6JUbXfvDFKUw=,tag:qCeDipy4weGDYfT2+C524w==,type:str]
+    infra.gcrRepository:
+        text: gcr.io/dagger-ci/example
+    infra.gkeClusterName:
+        text: test-cluster
+    infra.rdsAdminSecretArn:
+        text: arn:aws:secretsmanager:us-east-1:125635003186:secret:AdminPassword-NQbBi7oU4329-IGgS3B
+    infra.rdsInstanceArn:
+        text: arn:aws:rds:us-east-1:125635003186:cluster:bl-rds-acme-764-rdscluster-8eg3mjrkvrsg
+    infra.vpcId:
+        text: vpc-020aefe0bcde19146
+    repo:
+        dir:
+            path: .
+    vote.appName:
+        text: acme-vote
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1ez5phfa2l6e9fqt4nnem734jajg4nlcefhv3ydeltzjlele47ags34868h
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA1dUY0TW8xTjcrUHJxbEFO
+            MmFKcUlMd1JHUG5RMjFDVVpoYitMZE04eUZjCnBtY29telBuMzNlTk1XT1pqblZ4
+            L0cwUEljY3cxd0lEd2tMazlJVnBYSDgKLS0tIGZtL1hVQVpBdk1yQW9qbFEzT0xH
+            SWE4cExHQTJmT2hLR2xXWWc0OWx4WEUKWiI8MZN957VCtixJrn8jSlz5p9pC+lmx
+            04GX4Mx8n+NNPtQ3NiaOjtp8Rro2tWw7X4/Y+tlM9l6ys2VMzfgXvQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2021-06-02T15:31:49Z"
+    mac: ENC[AES256_GCM,data:dcdQ450S9GVtJVwdDemRuIR6Vnhw6gh/KBRPh7dUGev5c0ekCsJW3WjtEFnQaESn4zOApz9nR+hjjKuD/WPpDMR7XsgfIPmD6rZalUAYIjqsnLM+4Th08x0FSE0Hza7Ip3faagx0z/X267qL9BiCA5K/XfuqXNclJu4jFwAQDdw=,iv:V4EkULvF5weon9O6LAa0M00mWCxZkOU64xS1U0PHIVc=,tag:ELWhBK9ofCdp0KA+9sa2Gw==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1

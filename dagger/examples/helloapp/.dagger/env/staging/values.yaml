@@ -1,0 +1,45 @@
+name: staging
+inputs:
+    hello.dir:
+        git:
+            remote: https://github.com/cuelang/cue
+            ref: master
+            dir: ""
+    repo:
+        dir:
+            path: .
+            include: []
+    web.bucket.config.accessKey:
+        secret: ENC[AES256_GCM,data:iRCQGhZQhNVwl2x/2zsUCi9RIoU=,iv:Dgtce5puzSskJn6sPo5bTD36KDgQTyM/uw2gV7Yht18=,tag:YO6Vx0PE/IgaMB5PjAtwRg==,type:str]
+    web.bucket.config.region:
+        text: us-east-1
+    web.bucket.config.secretKey:
+        secret: ENC[AES256_GCM,data:olxc7c6Hluzku3RSIQahoGNgRAMFYodJM7qvMvdWeeQ7WVk9N5l6gQ==,iv:xJI/M9Fn/feDZeCsfX5rcMop8wCVI4tixTdtFEi815g=,tag:eeMDwiU47SAto1KUmkvglg==,type:str]
+    web.bucket.target:
+        text: s3://dagger-example-web/
+    web.provider:
+        text: s3
+    web.site.account.token:
+        secret: ENC[AES256_GCM,data:Ry7zHLUn6a87z7qRYe9lEAkmDTbqmbt9U+J7U8Hi+6ukqI2aSO0PkgBAKA==,iv:0MkUf8vNe+Pn31sOoLyBhgv7eBRVH7TfDOPkXJOzt4I=,tag:Y1rnr8QU6Lts3JVJl3h/tw==,type:str]
+    web.site.name:
+        text: dagger-demo-dockercon
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1ez5phfa2l6e9fqt4nnem734jajg4nlcefhv3ydeltzjlele47ags34868h
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2NFlLTHJRV3RWS24xa3BR
+            N0ZEcFNzdmEzUTFnODR0dFI0dnpxdjB2RUdFCkJ5TTFadVFqTnI3djZxTllEQ0Fq
+            M3dQSnkyVzY3cENiMkEwK1pCRmpJV1kKLS0tIDVKc0VraE9aL1EwOGovZU1odjBy
+            eXYvVmxEeUF6ektaVlJGQTBrZUQ0UEEKqXU9psIcz0eWwqwSemNCzhFroJP28F4C
+            ADPxVMU/HE16diGcIrWGIOsz2D3pjyaqZ8+1E/PRom6mB8jiLMtCZw==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2021-05-26T21:53:34Z"
+    mac: ENC[AES256_GCM,data:w7nCinJ60EjdceEDFQ26JElcf+/xsqqXdqmIgWVFbrgDtzDxAivfoyO1VjrM567719HCCe+KI4HnqWMIDJQGAP7IcWDIFnDCs0RkDgYQUTP6CCM/zzo65coftdODW0HyllqT4TtDr07mYuN9jXSqOzmSPvPRnbX2aHicohlz3MA=,iv:/7+nx11TX6fHzYPuToh6nqDoOHRJ8h2RYfbMqzzTwIo=,tag:w60LjeSbcBNhIeRu/ztcxQ==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1

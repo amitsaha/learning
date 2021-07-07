@@ -1,0 +1,33 @@
+plan:
+    module: .dagger/env/s3/plan
+name: s3
+inputs:
+    s3bucket.config.accessKey:
+        secret: ENC[AES256_GCM,data:EBkuQ/CSBuo1lax6gyLudMJBdnU=,iv:jMJtNGZUcaH6vK6kqq37MMt7fonnoJ1Rn9eI0FN2cXI=,tag:1ZaDPBTGviy3t3p2glqExQ==,type:str]
+    s3bucket.config.region:
+        text: us-east-1
+    s3bucket.config.secretKey:
+        secret: ENC[AES256_GCM,data:8yT7COvYYbKFQTRoT/KZbfz06j8OqgVaTC6NFiZowRV4i1vF7aMNGQ==,iv:YpkbA0ZkZf+tQ4fpqTPZ81IYhCH7+dY1ziiatazocm8=,tag:8lrylrXiomy7SHM9CsnYJg==,type:str]
+    source:
+        dir:
+            path: .
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1gunf55cd2v30j76w4arxgmzks48v2a56pdw0vtn2j2ax6q2yp3wqgqlzxm
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMSTlKVXBvMlg2cit0V1RO
+            dEg0d3JXdmowMkdxYmlkV2pQKzlLTjQ3QVNnCkNGNlUvRkZIMURiYkRmUjJPOEdu
+            M1A4NWtrYjdsVzRhV1hBZ0Y2bnljenMKLS0tIHY5aFg3RjVibWhjb1pjMmllVjdJ
+            aEQ0U1l2dkp6dDhud3FrdUNMaTRFTEkKTaxaUs8tUz9peEYtHDrL/jOpf/q+iljI
+            Yb53Sh4hJxjv378a9YYywIbdg6r4SSso1YPMk6mQsevRwC3PJS+H1g==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2021-06-21T09:34:45Z"
+    mac: ENC[AES256_GCM,data:U61+9e2h6zft6Q1ulM0ybRldzM1r5A5S0ugPAbF0DJyPgBxbENKdZfjtKu8Lufi2q4jgtam0YsFFpCqDBbKS6IlTspzo4cv23pfj2LeGbMub8ZiXxPZX3DcPI+jp0y2DySG+noYaIevcGJDcBEs6UUvZbLhjRzUCLzpECcxIsHI=,iv:3AzHRt110DlIYkk5PIUHDP2PnnNZGDBD7by9zQl0v3c=,tag:bDhEVawpjQWwiFmnxiCxsg==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1
